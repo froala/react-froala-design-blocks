@@ -1,44 +1,78 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [React Froala Design Blocks](https://www.froala.com/design-blocks) &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20over%20170%20free%20design%20blocks%20based%20on%20Bootstrap%204&url=https://www.froala.com/design-blocks&via=froala&hashtags=bootstrap,design,templates,blocks,developers) &nbsp;[![Slack](https://froala-design-blocks-slack.herokuapp.com/badge.svg)](https://froala-design-blocks-slack.herokuapp.com/)
 
-## Available Scripts
+[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/froala/design-blocks/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/react-froala-design-blocks.svg?colorB=brightgreen)](https://www.npmjs.com/package/react-froala-design-blocks)
+[![CDNJS](https://img.shields.io/cdnjs/v/froala-design-blocks.svg)](https://cdnjs.com/libraries/froala-design-blocks)
+[![GitHub package version](https://img.shields.io/github/package-json/v/froala/react-froala-design-blocks.svg)](https://github.com/froala/react-froala-design-blocks)
+[![License: FOWDL v1.0](https://img.shields.io/badge/license-FOWDL-blue.svg)](https://github.com/froala/react-froala-design-blocks/blob/master/LICENSE)
 
-In the project directory, you can run:
+Over 170 responsive design blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library, and they are the building blocks for beautiful websites.
 
-### `npm start`
+**Discuss it on [Product Hunt](https://www.producthunt.com/posts/froala-design-blocks-2) 🦄**
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p><a href="https://www.froala.com/design-blocks/webpage-builder">Design Blocks Builder »</a></p>
+<p><a href="https://www.froala.com/wysiwyg-editor">WYSIWYG HTML Editor</a> · <a href="https://www.froala.com/pages">Pages</a> · <a href="https://www.froala.com/blog">Blog</a>
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+![Design Blocks](https://raw.githubusercontent.com/froala/design-blocks/master/design-blocks.jpg)
 
-### `npm test`
+## Table of contents
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Quick start](#quick-start)
+- [Browser support](#browser-support)
+- [Community](#community)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Contributing guidelines](#contributing-guidelines)
+- [Copyright and license](#copyright-and-license)
 
-### `npm run build`
+## Quick start
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Install package.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```bash
+git clone git@github.com:froala/react-froala-design-blocks.git
+cd react-froala-design-blocks
+npm install
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to `http://localhost:3000/`. The app will automatically reload if you change any of the source files.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Bugs and feature requests
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Have a bug or a feature request? Please first read the issue guidelines and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/froala/react-froala-design-blocks/issues/new).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Community
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Get updates on Froala Design Blocks' development and chat with the project maintainers and community members:
+
+- Follow [@froala on Twitter](https://twitter.com/froala)
+- Read and subscribe to [The Official Froala Blog](https://www.froala.com/blog)
+- Check the [Official Website](https://www.froala.com/design-blocks)
+- Join us [on Facebook](https://www.facebook.com/froala/)
+- [Google+](https://plus.google.com/+Froala/)
+- [Pinterest](https://pinterest.com/froala/)
+
+
+
+## Contributing guidelines
+
+All contributions are more than welcomed. Contributions may close an issue, fix a bug (reported or not reported), add new design blocks, improve the existing code, add new feature, and so on. In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation. [Read the full Code of Conduct](https://github.com/froala/design-blocks/blob/dev/CODE_OF_CONDUCT.md).
+
+
+
+#### Versioning
+
+Through the development of new versions, we're going use the Semantic Versioning: https://docs.npmjs.com/getting-started/semantic-versioning. Example: 1.0.0.
+- Major release: increment the first digit and reset middle and last digits to zero. Introduces major changes that might break backward compatibility. E.g. 2.0.0
+- Minor release: increment the middle digit and reset last digit to zero. It would fix bugs and also add new features without breaking backward compatibility. E.g. 1.1.0
+- Patch release: increment the third digit. It would fix bugs and keep backward compatibility. E.g. 1.0.1
+
+
+
+## Copyright and license
+
+Code and documentation copyright 2018 [Froala Labs](https://www.froala.com/). Code released under the [Froala Open Web Design License](https://github.com/froala/react-froala-design-blocks/blob/master/LICENSE).
