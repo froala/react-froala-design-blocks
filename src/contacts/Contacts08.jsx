@@ -3,20 +3,20 @@ import Iframe from 'react-iframe';
 
 class Contacts08 extends Component {
   render() {
-    return <section className="fdb-block pt-0">
+    return <section className="fdb-block pt-0" style={{backgroundImage: 'url(./imgs/shapes/8.svg)'}}>
   <div className="bg-gray">
     <div className="container">
       <div className="row-100"></div>
       <div className="row text-left">
         <div className="col-8">
           <h1>Contact Us</h1>
-          <p className="h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
         </div>
       </div>
       <div className="row-100"></div>
     </div>
   </div>
-  <div className="container">
+  <div className="container bg-r">
     <div className="row-100"></div>
     <div className="row">
       <div className="col-12 col-md-6 col-lg-5">

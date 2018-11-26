@@ -13,30 +13,30 @@ class Teams03 extends Component {
 
     <div className="row-70"></div>
 
-    <div className="row text-center justify-content-center">
+    <div className="row text-center justify-content-center mb-5">
       <div className="col-sm-2 m-sm-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/1.jpg" />
 
         <h3><strong>Sara Doe</strong></h3>
         <p><em>Founder</em></p>
       </div>
 
       <div className="col-sm-2 m-sm-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/6.jpg" />
 
         <h3><strong>Sara Doe</strong></h3>
         <p><em>Founder</em></p>
       </div>
 
       <div className="col-sm-2 m-sm-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/7.jpg" />
 
         <h3><strong>Sara Doe</strong></h3>
         <p><em>Founder</em></p>
       </div>
 
       <div className="col-sm-2 m-sm-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/8.jpg" />
 
         <h3><strong>Sara Doe</strong></h3>
         <p><em>Founder</em></p>
@@ -45,21 +45,21 @@ class Teams03 extends Component {
 
     <div className="row justify-content-center text-center">
       <div className="col-sm-2 m-sm-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/2.jpg" />
 
         <h3><strong>Sara Doe</strong></h3>
         <p><em>Founder</em></p>
       </div>
 
       <div className="col-sm-2 m-sm-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/3.jpg" />
 
         <h3><strong>Sara Doe</strong></h3>
         <p><em>Founder</em></p>
       </div>
 
       <div className="col-sm-2 m-sm-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/5.jpg" />
 
         <h3><strong>Sara Doe</strong></h3>
         <p><em>Founder</em></p>

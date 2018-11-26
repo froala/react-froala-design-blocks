@@ -14,7 +14,7 @@ class Features12 extends Component {
       <div className="col-12 col-sm-6 col-lg-3">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/layers.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature One</strong></h3>
@@ -25,7 +25,7 @@ class Features12 extends Component {
       <div className="col-12 col-sm-6 col-lg-3 pt-3 pt-sm-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/layout.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Two</strong></h3>
@@ -36,7 +36,7 @@ class Features12 extends Component {
       <div className="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/life-buoy.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Three</strong></h3>
@@ -47,7 +47,7 @@ class Features12 extends Component {
       <div className="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/map-pin.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Four</strong></h3>
@@ -61,7 +61,7 @@ class Features12 extends Component {
       <div className="col-12 col-sm-6 col-lg-3">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/monitor.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Five</strong></h3>
@@ -72,7 +72,7 @@ class Features12 extends Component {
       <div className="col-12 col-sm-6 col-lg-3 pt-3 pt-sm-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/package.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Six</strong></h3>
@@ -83,7 +83,7 @@ class Features12 extends Component {
       <div className="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/cloud.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Seven</strong></h3>
@@ -94,7 +94,7 @@ class Features12 extends Component {
       <div className="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/gift.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Eight</strong></h3>

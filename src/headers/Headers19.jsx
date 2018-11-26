@@ -8,15 +8,15 @@ class Headers19 extends Component {
     <nav className="navbar navbar-expand-md no-gutters">
       <div className="col-2 text-left">
         <a href="https://www.froala.com">
-          <img src="./imgs/img_logo.png" height="30" alt="image" />
+          <img src="./imgs/logo.png" height="30" alt="image" />
         </a>
       </div>
 
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse-3" aria-controls="navbarNav6" aria-expanded="false" aria-label="Toggle navigation">
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse-3" aria-controls="navbarNav14" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div className="collapse navbar-collapse justify-content-center col-md-8 navbar-collapse-3">
+      <div className="collapse navbar-collapse justify-content-center col-md-8 navbar-collapse-3" id="navbarNav14">
         <ul className="navbar-nav justify-content-center">
           <li className="nav-item active">
             <a className="nav-link" href="https://www.froala.com">Home <span className="sr-only">(current)</span></a>

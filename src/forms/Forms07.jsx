@@ -3,11 +3,11 @@ import Iframe from 'react-iframe';
 
 class Forms07 extends Component {
   render() {
-    return <section className="fdb-block" style={{backgroundImage: 'imgs/bg_0.svg'}}>
+    return <section className="fdb-block" style={{backgroundImage: 'url(imgs/hero/red.svg)'}}>
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-12 col-md-8 col-lg-7 col-xl-5 text-center">
-        <div className="fdb-box fdb-touch">
+        <div className="fdb-box">
           <div className="row">
             <div className="col">
               <h1>Log In</h1>
@@ -26,7 +26,7 @@ class Forms07 extends Component {
           </div>
           <div className="row mt-4">
             <div className="col">
-              <button className="btn btn-primary" type="button">Submit</button>
+              <button className="btn btn-outline-secondary" type="button">Submit</button>
             </div>
           </div>
         </div>

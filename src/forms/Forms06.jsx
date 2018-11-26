@@ -10,7 +10,7 @@ class Forms06 extends Component {
         <div className="row">
           <div className="col text-center">
             <h1>Register</h1>
-            <p className="h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. </p>
+            <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. </p>
           </div>
         </div>
         <div className="row align-items-center">

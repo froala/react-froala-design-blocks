@@ -8,7 +8,7 @@ class Teams01 extends Component {
     <div className="row text-center justify-content-center">
       <div className="col-8">
         <h1>Our Team</h1>
-        <p className="h3">Far far away, behind the word mountains, far from the countries.</p>
+        <p className="lead">Far far away, behind the word mountains, far from the countries.</p>
       </div>
     </div>
 
@@ -16,10 +16,10 @@ class Teams01 extends Component {
 
     <div className="row">
       <div className="col-sm-3 text-left">
-        <div className="fdb-box">
-          <img alt="image" className="img-fluid" src="./imgs/img_square_1.svg" />
+        <div className="fdb-box p-0">
+          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/1.jpg" />
 
-          <div className="content">
+          <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>
             <p>Founder</p>
           </div>
@@ -27,30 +27,30 @@ class Teams01 extends Component {
       </div>
 
       <div className="col-sm-3 text-left">
-        <div className="fdb-box">
-          <img alt="image" className="img-fluid" src="./imgs/img_square_2.svg" />
+        <div className="fdb-box p-0">
+          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/2.jpg" />
 
-          <div className="content">
+          <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>
             <p>Founder</p>
           </div>
         </div>
       </div>
       <div className="col-sm-3 text-left">
-        <div className="fdb-box">
-          <img alt="image" className="img-fluid" src="./imgs/img_square_3.svg" />
+        <div className="fdb-box p-0">
+          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/3.jpg" />
 
-          <div className="content">
+          <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>
             <p>Founder</p>
           </div>
         </div>
       </div>
       <div className="col-sm-3 text-left">
-        <div className="fdb-box">
-          <img alt="image" className="img-fluid" src="./imgs/img_square_4.svg" />
+        <div className="fdb-box p-0">
+          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/6.jpg" />
 
-          <div className="content">
+          <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>
             <p>Founder</p>
           </div>

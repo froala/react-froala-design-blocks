@@ -3,7 +3,7 @@ import Iframe from 'react-iframe';
 
 class Contacts02 extends Component {
   render() {
-    return <section className="fdb-block bg-dark" style={{backgroundImage: 'imgs/bg_0.svg'}}>
+    return <section className="fdb-block bg-dark" style={{backgroundImage: 'url(imgs/hero/blue.svg)'}}>
   <div className="container">
     <div className="row text-center justify-content-center">
       <div className="col-12 col-md-8 col-lg-7">
@@ -40,7 +40,7 @@ class Contacts02 extends Component {
           </div>
           <div className="row mt-4">
             <div className="col text-center">
-              <button type="submit" className="btn btn-primary">Submit</button>
+              <button type="submit" className="btn btn-dark">Submit</button>
             </div>
           </div>
         </form>

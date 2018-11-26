@@ -3,18 +3,18 @@ import Iframe from 'react-iframe';
 
 class Features16 extends Component {
   render() {
-    return <section className="fdb-block pb-md-0">
+    return <section className="fdb-block">
   <div className="container">
     <div className="row justify-content-center pb-xl-5">
       <div className="col-12 col-md-8 text-center">
         <h1>Froala Design Blocks</h1>
-        <p className="h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
       </div>
     </div>
 
     <div className="row text-right align-items-center-lg align-items-end pt-5">
       <div className="col-7 col-sm-4 m-auto mb-md-0 mt-md-0 m-lg-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_tall.png" />
+        <img alt="image" className="img-fluid" src="./imgs/draws/simple-iphone.svg" />
       </div>
 
       <div className="col-12 col-md-7 col-lg-6 col-xl-5 m-auto text-left pt-5 pt-md-0">

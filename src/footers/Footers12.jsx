@@ -16,7 +16,7 @@ class Footers12 extends Component {
 
     <div className="row mt-4">
       <div className="col text-center">
-        <p className="h3">
+        <p className="lead">
           <a href="https://www.froala.com" className="mx-2"><i className="fab fa-twitter" aria-hidden="true"></i></a>
           <a href="https://www.froala.com" className="mx-2"><i className="fab fa-facebook" aria-hidden="true"></i></a>
           <a href="https://www.froala.com" className="mx-2"><i className="fab fa-instagram" aria-hidden="true"></i></a>

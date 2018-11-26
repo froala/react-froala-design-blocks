@@ -6,18 +6,22 @@ class Features17 extends Component {
     return <section className="fdb-block">
   <div className="container">
     <div className="row justify-content-center">
-      <div className="col-12 text-left">
+      <div className="col text-left">
         <h1>Froala Design Blocks</h1>
-        <p className="h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-        <img alt="image" className="img-fluid mt-5" src="./imgs/img_very_wide.svg" />
+        <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+      </div>
+    </div>
+    <div className="row justify-content-center mb-5">
+      <div className="col-10">
+        <img alt="image" className="img-fluid mt-5" src="./imgs/draws/android.svg" />
       </div>
     </div>
 
-    <div className="row text-left mt-5">
+    <div className="row text-left pt-5">
       <div className="col-12 col-md-4">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/github.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature One</strong></h3>
@@ -29,7 +33,7 @@ class Features17 extends Component {
       <div className="col-12 col-md-4 pt-4 pt-md-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/layers.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Two</strong></h3>
@@ -41,7 +45,7 @@ class Features17 extends Component {
       <div className="col-12 col-md-4 pt-4 pt-md-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/life-buoy.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Three</strong></h3>

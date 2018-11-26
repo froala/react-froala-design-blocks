@@ -8,7 +8,7 @@ class Headers07 extends Component {
     <nav className="navbar navbar-expand-md no-gutters">
       <div className="col-2 text-left">
         <a href="https://www.froala.com">
-          <img src="./imgs/img_logo.png" height="30" alt="image" />
+          <img src="./imgs/logo.png" height="30" alt="image" />
         </a>
       </div>
 

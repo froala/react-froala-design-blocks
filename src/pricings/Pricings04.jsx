@@ -3,17 +3,17 @@ import Iframe from 'react-iframe';
 
 class Pricings04 extends Component {
   render() {
-    return <section className="fdb-block">
-  <div className="container">
-    <div className="row text-center">
+    return <section className="fdb-block py-0">
+  <div className="container pt-5 my-5" style={{backgroundImage: 'url(imgs/shapes/2.svg)'}}>
+    <div className="row text-center py-5">
       <div className="col">
         <h1>Pricing Plans</h1>
       </div>
     </div>
 
-    <div className="row mt-5 align-items-top">
+    <div className="row py-5 align-items-top">
       <div className="col-12 col-sm-10 col-md-8 m-auto col-lg-4 text-left">
-        <div className="bg-gray pb-5 pt-5 pl-4 pr-4 rounded">
+        <div className="bg-gray pb-5 pt-5 pl-4 pr-4 rounded shadow">
           <h2 className="font-weight-light">Startup</h2>
           <hr/>
           <p className="h2"><strong>$9.90</strong></p>
@@ -30,7 +30,7 @@ class Pricings04 extends Component {
       </div>
 
       <div className="col-12 col-sm-10 col-md-8 m-auto col-lg-4 text-left pt-4 pt-lg-0">
-        <div className="bg-gray pb-5 pt-5 pl-4 pr-4 rounded">
+        <div className="bg-gray pb-5 pt-5 pl-4 pr-4 rounded shadow">
           <h2 className="font-weight-light">Standard</h2>
           <hr/>
           <p className="h2"><strong>$29.90</strong></p>
@@ -47,7 +47,7 @@ class Pricings04 extends Component {
       </div>
 
       <div className="col-12 col-sm-10 col-md-8 m-auto col-lg-4 text-left pt-4 pt-lg-0">
-        <div className="bg-gray pb-5 pt-5 pl-4 pr-4 rounded">
+        <div className="bg-gray pb-5 pt-5 pl-4 pr-4 rounded shadow">
           <h2 className="font-weight-light">Professional</h2>
           <hr/>
           <p className="h2"><strong>$59.90</strong></p>

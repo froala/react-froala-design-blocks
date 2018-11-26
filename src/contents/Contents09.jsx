@@ -11,17 +11,12 @@ class Contents09 extends Component {
       </div>
     </div>
 
-    <div className="row pt-4">
-      <div className="col">
-        <img alt="image" className="img-fluid" src="./imgs/colors_wide_1.jpg" />
+    <div className="row pt-5 justify-content-center align-items-center">
+      <div className="col-4">
+        <img alt="image" className="img-fluid" src="./imgs/draws/developer.svg" />
       </div>
-      <div className="col">
-        <img alt="image" className="img-fluid" src="./imgs/colors_wide_2.jpg" />
-      </div>
-    </div>
-    <div className="row pt-4">
-      <div className="col">
-        <img alt="image" className="img-fluid" src="./imgs/colors_wide_1.jpg" />
+      <div className="col-4 offset-1">
+        <img alt="image" className="img-fluid" src="./imgs/draws/git.svg" />
       </div>
     </div>
   </div>

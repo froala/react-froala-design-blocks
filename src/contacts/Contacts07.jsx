@@ -3,12 +3,12 @@ import Iframe from 'react-iframe';
 
 class Contacts07 extends Component {
   render() {
-    return <section className="fdb-block pb-0" style={{backgroundImage: 'imgs/bg_3.svg'}}>
-  <div className="container">
+    return <section className="fdb-block py-0">
+  <div className="container py-5" style={{backgroundImage: 'url(imgs/shapes/6.svg)'}}>
     <div className="row text-center justify-content-center">
       <div className="col-12 col-md-8 col-lg-7">
         <h1>Contact Us</h1>
-        <p className="h3">If you’re already an active user, please <a href="https://www.froala.com">sign in</a> before contacting us.</p>
+        <p className="lead">If you’re already an active user, please <a href="https://www.froala.com">sign in</a> before contacting us.</p>
       </div>
     </div>
     <div className="row-50">
@@ -38,7 +38,7 @@ class Contacts07 extends Component {
           </div>
           <div className="row mt-4">
             <div className="col text-right">
-              <button type="submit" className="btn btn-primary">Submit</button>
+              <button type="submit" className="btn btn-dark">Submit</button>
             </div>
           </div>
         </form>

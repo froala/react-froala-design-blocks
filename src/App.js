@@ -21,12 +21,12 @@ class App extends Component {
     return (
       <Router>
       <div>
-        <section className="fdb-block" style={{backgroundImage: 'url(imgs/alt_wide_1.svg)'}}>
-          <div className="container">
+        <section className="fdb-block py-0 my-5">
+          <div className="container bg-r py-5" style={{backgroundImage: 'url(imgs/shapes/1.svg)'}}>
             <div className="row justify-content-start">
               <div className="col-12 col-sm-10 col-md-8 text-center text-sm-left">
                 <h1>Froala Design Blocks</h1>
-                <p className="h3">Over 170 responsive design blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library, and they are the building blocks for beautiful websites.</p>
+                <p className="lead">Over 170 responsive design blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library, and they are the building blocks for beautiful websites.</p>
                 <p className="mt-4">
                   <a className="btn btn-dark mr-3 mr-sm-0" href="https://github.com/froala/design-blocks"><i className="fab fa-github"></i> Github Docs</a>
                   <a className="btn btn-primary ml-sm-3 mr-3 mr-sm-0 mt-3 mt-sm-0" href="https://froala.com/design-blocks#playground">Official Website</a>

@@ -13,19 +13,19 @@ class Features29 extends Component {
 
     <div className="row justify-content-center text-center mt-5">
       <div className="col-12 col-sm-6 col-md-5 col-lg-3">
-        <img alt="image" className="fdb-icon" src="./imgs/img_round.svg" />
+        <img alt="image" className="fdb-icon" src="./imgs/icons/github.svg" />
         <h3><strong>Feature one longer Text</strong></h3>
       </div>
 
       <div className="col-12 col-sm-6 col-md-5 col-lg-3 pt-4 pt-sm-0">
-        <img alt="image" className="fdb-icon" src="./imgs/img_round.svg" />
+        <img alt="image" className="fdb-icon" src="./imgs/icons/gift.svg" />
         <h3><strong>Feature two shorter</strong></h3>
       </div>
     </div>
 
-    <div className="row justify-content-center text-center mt-5 mt-md-4">
+    <div className="row justify-content-center text-center mt-5 mt-md-4 pt-5">
       <div className="col-12 col-md-10 col-lg-8">
-        <img alt="image" className="img-fluid" src="./imgs/img_very_wide.svg" />
+        <img alt="image" className="img-fluid" src="./imgs/draws/social-media.svg" />
         <p><em>Coming this fall</em></p>
       </div>
     </div>

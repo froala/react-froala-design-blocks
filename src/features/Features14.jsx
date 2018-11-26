@@ -3,17 +3,17 @@ import Iframe from 'react-iframe';
 
 class Features14 extends Component {
   render() {
-    return <section className="fdb-block pb-md-0">
+    return <section className="fdb-block">
   <div className="container">
     <div className="row text-right align-items-center">
       <div className="col-7 col-md-4 m-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_very_tall.png" />
+        <img alt="image" className="img-fluid" src="./imgs/draws/simple-iphone.svg" />
       </div>
 
       <div className="col-12 col-md-7 col-lg-5 m-auto text-left pt-5 pt-md-0">
         <div className="row pb-lg-5">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/layers.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Seven</strong></h3>
@@ -23,7 +23,7 @@ class Features14 extends Component {
 
         <div className="row pt-4 pt-md-5 pb-lg-5">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/monitor.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Seven</strong></h3>
@@ -34,7 +34,7 @@ class Features14 extends Component {
 
         <div className="row pt-4 pt-md-5">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+            <img alt="image" className="img-fluid" src="./imgs/icons/cloud.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Seven</strong></h3>

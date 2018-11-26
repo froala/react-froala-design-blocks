@@ -7,7 +7,7 @@ class CallToAction01 extends Component {
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-12 col-md-8 text-center">
-        <p className="h3">
+        <p className="lead">
           "Separated they live in Bookmarksgrove right at the coast of the Semantics, far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast."
         </p>
 

@@ -7,7 +7,7 @@ class CallToAction06 extends Component {
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-12 col-sm-10 col-md-8 col-lg-4 text-center">
-        <p className="h3">
+        <p className="lead">
           Follow us and ask more on:
         </p>
         <p className="h2">

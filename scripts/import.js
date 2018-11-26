@@ -102,14 +102,14 @@ export default ${newName}
 
     replace.sync({
       files: newPath,
-      from: /style=\"background-image: url\(([^)]*)\);\"/g,
-      to: 'style={{backgroundImage: \'$1\'}}'
+      from: /style=\"background-image: url\(([^)]*)\);?\"/g,
+      to: 'style={{backgroundImage: \'url($1)\'}}'
     });
 
     replace.sync({
       files: newPath,
       from: /style=\"background: url\(([^)]*)\)\"/g,
-      to: 'style={{background: \'$1\'}}'
+      to: 'style={{background: \'url($1)\'}}'
     });
   })
 })

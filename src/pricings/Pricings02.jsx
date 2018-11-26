@@ -15,7 +15,7 @@ class Pricings02 extends Component {
       <div className="col-12 col-sm-10 col-md-8 m-auto col-lg-4 text-left">
         <div className="fdb-box fdb-touch p-5 rounded">
           <h2>Hobby <strong className="float-xl-right d-lg-block d-xl-inline">$99</strong></h2>
-          <p className="h3"><em>Copy Writers ambushed her, made her drunk with Longe.</em></p>
+          <p className="lead"><em>Copy Writers ambushed her, made her drunk.</em></p>
 
           <ul className="text-left pl-3 mt-5 mb-5">
             <li>Item 1</li>
@@ -30,7 +30,7 @@ class Pricings02 extends Component {
       <div className="col-12 col-sm-10 col-md-8 m-auto col-lg-4 text-left pt-4 pt-lg-0">
         <div className="fdb-box fdb-touch p-5 rounded">
           <h2>Advanced <strong className="float-xl-right d-lg-block d-xl-inline">$349</strong></h2>
-          <p className="h3"><em>Separated they live in Bookmarks right at the coast.</em></p>
+          <p className="lead"><em>Separated they live in Bookmarks right.</em></p>
 
           <ul className="text-left pl-3 mt-5 mb-5">
             <li>Item 1</li>
@@ -45,7 +45,7 @@ class Pricings02 extends Component {
       <div className="col-12 col-sm-10 col-md-8 m-auto col-lg-4 text-left pt-4 pt-lg-0">
         <div className="fdb-box fdb-touch p-5 rounded">
           <h2>Business <strong className="float-xl-right d-lg-block d-xl-inline">$849</strong></h2>
-          <p className="h3"><em>A small river named Duden flows by their place.</em></p>
+          <p className="lead"><em>A small river named Duden their place.</em></p>
 
           <ul className="text-left pl-3 mt-5 mb-5">
             <li>Item 1</li>

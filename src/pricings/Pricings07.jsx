@@ -17,7 +17,7 @@ class Pricings07 extends Component {
           <h3><strong>Startup</strong></h3>
           <p className="h4">&lt; 10 employees</p>
 
-          <p className="h1 mt-5">$9.90 <span className="h3">/ month</span></p>
+          <p className="h1 mt-5">$9.90 <span className="lead">/ month</span></p>
           <p>Far far away, behind the word mountains, far from the countries.</p>
           <hr/>
           <p><em>Unlimited calls</em></p>
@@ -33,7 +33,7 @@ class Pricings07 extends Component {
           <h3><strong>Agency</strong></h3>
           <p className="h4">10-100 employees</p>
 
-          <p className="h1 mt-5">$19.90 <span className="h3">/ month</span></p>
+          <p className="h1 mt-5">$19.90 <span className="lead">/ month</span></p>
           <p>And if she hasn’t been rewritten, then they are still using her.</p>
           <hr/>
           <p><em>Unlimited calls</em></p>
@@ -49,7 +49,7 @@ class Pricings07 extends Component {
           <h3><strong>Business</strong></h3>
           <p className="h4">&gt;100 employees</p>
 
-          <p className="h1 mt-5">$99.90 <span className="h3">/ month</span></p>
+          <p className="h1 mt-5">$99.90 <span className="lead">/ month</span></p>
           <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
           <hr/>
           <p><em>Unlimited calls</em></p>

@@ -16,7 +16,7 @@ class Pricings09 extends Component {
         <div className="bg-gray p-3 text-center rounded sl-1">
           <h2 className="font-weight-light">Startup</h2>
           <p className="h2">$99</p>
-          <p className="text-center"><a href="https://www.froala.com" className="btn btn-outline-primary">Buy Now</a></p>
+          <p className="text-center"><a href="https://www.froala.com" className="btn btn-outline-secondary">Buy Now</a></p>
 
           <hr className="mt-5 mb-5"/>
 
@@ -30,7 +30,7 @@ class Pricings09 extends Component {
         <div className="bg-gray p-3 text-center rounded sl-1">
           <h2 className="font-weight-light">Advanced</h2>
           <p className="h2">$399</p>
-          <p className="text-center"><a href="https://www.froala.com" className="btn btn-primary">Buy Now</a></p>
+          <p className="text-center"><a href="https://www.froala.com" className="btn btn-secondary">Buy Now</a></p>
 
           <hr className="mt-5 mb-5"/>
 
@@ -44,7 +44,7 @@ class Pricings09 extends Component {
         <div className="bg-gray p-3 text-center rounded sl-1">
           <h2 className="font-weight-light">Business</h2>
           <p className="h2">$999</p>
-          <p className="text-center"><a href="https://www.froala.com" className="btn btn-outline-primary">Buy Now</a></p>
+          <p className="text-center"><a href="https://www.froala.com" className="btn btn-outline-secondary">Buy Now</a></p>
 
           <hr className="mt-5 mb-5"/>
 
@@ -58,7 +58,7 @@ class Pricings09 extends Component {
         <div className="bg-gray p-3 text-center rounded sl-1">
           <h2 className="font-weight-light">Enterprise</h2>
           <p className="h2">Call Us</p>
-          <p className="text-center"><a href="https://www.froala.com" className="btn btn-outline-primary">Contact</a></p>
+          <p className="text-center"><a href="https://www.froala.com" className="btn btn-outline-secondary">Contact</a></p>
 
           <hr className="mt-5 mb-5"/>
 

@@ -3,7 +3,7 @@ import Iframe from 'react-iframe';
 
 class Contents28 extends Component {
   render() {
-    return <section className="fdb-block fdb-image-bg" style={{background: 'imgs/img_bg.jpg'}}>
+    return <section className="fdb-block bg-dark">
   <div className="container">
     <div className="row text-center">
       <div className="col-12">

@@ -8,12 +8,16 @@ class Contents08 extends Component {
     <div className="row">
       <div className="col text-center">
         <h1>Froala Design Blocks</h1>
-        <h2>Subtitle comes here.</h2>
-        <p className="h3">
+        <p className="lead">Subtitle text about launch comes here.</p>
+        <p className="lead">
           <a href="https://www.froala.com" className="mx-2">Learn More <i className="fas fa-angle-right"></i></a>
           <a href="https://www.froala.com" className="mx-2">Buy <i className="fas fa-angle-right"></i></a>
         </p>
-        <img alt="image" className="img-fluid mt-5" src="./imgs/colors_wide_1.jpg" />
+      </div>
+    </div>
+    <div className="row justify-content-center">
+      <div className="col-6">
+        <img alt="image" className="img-fluid mt-5" src="./imgs/draws/hosting.svg" />
       </div>
     </div>
   </div>

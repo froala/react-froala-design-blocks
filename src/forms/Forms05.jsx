@@ -3,15 +3,15 @@ import Iframe from 'react-iframe';
 
 class Forms05 extends Component {
   render() {
-    return <section className="fdb-block" style={{backgroundImage: 'imgs/bg_4.svg'}}>
-  <div className="container">
-    <div className="row justify-content-end">
+    return <section className="fdb-block py-0">
+  <div className="container py-5 my-5" style={{backgroundImage: 'url(imgs/shapes/4.svg)'}}>
+    <div className=" row justify-content-end">
       <div className="col-12 col-md-8 col-lg-6 col-xl-5 text-left">
         <div className="fdb-box">
           <div className="row">
             <div className="col">
               <h1>Log In</h1>
-              <p className="h3">Right at the coast of the Semantics, a large language ocean. A small river named Duden.</p>
+              <p className="lead">Right at the coast of the Semantics, a large language ocean. A small river named Duden.</p>
             </div>
           </div>
           <div className="row">
@@ -26,7 +26,7 @@ class Forms05 extends Component {
           </div>
           <div className="row mt-4">
             <div className="col">
-              <button className="btn btn-primary" type="button">Submit</button>
+              <button className="btn btn-secondary" type="button">Submit</button>
             </div>
           </div>
         </div>

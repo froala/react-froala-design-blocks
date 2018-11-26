@@ -7,7 +7,7 @@ class Headers02 extends Component {
   <div className="container text-center">
     <nav className="navbar">
       <a className="ml-auto mr-auto" href="https://www.froala.com">
-        <img src="./imgs/img_logo.png" height="30" alt="image" />
+        <img src="./imgs/logo.png" height="30" alt="image" />
       </a>
     </nav>
   </div>

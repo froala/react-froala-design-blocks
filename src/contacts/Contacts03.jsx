@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import Iframe from 'react-iframe';
 
 class Contacts03 extends Component {
@@ -8,7 +9,7 @@ class Contacts03 extends Component {
     <div className="row text-center justify-content-center">
       <div className="col-12 col-md-8 col-lg-7">
         <h1>Contact Us</h1>
-        <p className="h3">One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+        <p className="lead">One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
       </div>
     </div>
 

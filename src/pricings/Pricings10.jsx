@@ -17,22 +17,22 @@ class Pricings10 extends Component {
           <th scope="row" className="border-0"></th>
           <td className="text-center border-0">
             <h2 className="font-weight-light">Hobby</h2>
-            <p className="h2">$99</p>
+            <p className="lead">$99</p>
             <p><a href="https://www.froala.com" className="btn btn-outline-primary">Buy Now</a></p>
           </td>
           <td className="text-center border-0">
             <h2 className="font-weight-light">Professional</h2>
-            <p className="h2">$399</p>
+            <p className="lead">$399</p>
             <p><a href="https://www.froala.com" className="btn btn-outline-primary">Buy Now</a></p>
           </td>
           <td className="text-center border-0">
             <h2 className="font-weight-light">Business</h2>
-            <p className="h2">$899</p>
+            <p className="lead">$899</p>
             <p><a href="https://www.froala.com" className="btn btn-primary">Buy Now</a></p>
           </td>
           <td className="text-center border-0">
             <h2 className="font-weight-light">Enterprise</h2>
-            <p className="h2">Call us</p>
+            <p className="lead">Call us</p>
             <p><a href="https://www.froala.com" className="btn btn-outline-primary">Contact</a></p>
           </td>
         </tr>

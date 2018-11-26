@@ -11,23 +11,23 @@ class Teams06 extends Component {
       </div>
     </div>
 
-    <div className="row text-center">
+    <div className="row text-center mt-5">
       <div className="col-4">
-        <img alt="image" className="img-fluid" src="./imgs/colors_wide_1.jpg" />
+        <img alt="image" className="img-fluid rounded" src="./imgs/people/9.jpg" />
         <h3><strong>John Smith</strong></h3>
         <p>Position</p>
         <p>Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
       </div>
 
       <div className="col-4">
-        <img alt="image" className="img-fluid" src="./imgs/colors_wide_1.jpg" />
+        <img alt="image" className="img-fluid rounded" src="./imgs/people/1.jpg" />
         <h3><strong>John Smith</strong></h3>
         <p>Position</p>
         <p>One morning, when Gregor Samsa woke from troubled dreams.</p>
       </div>
 
       <div className="col-4">
-        <img alt="image" className="img-fluid" src="./imgs/colors_wide_1.jpg" />
+        <img alt="image" className="img-fluid rounded" src="./imgs/people/3.jpg" />
         <h3><strong>John Smith</strong></h3>
         <p>Position</p>
         <p>A small river named Duden flows by their place and supplies it.</p>

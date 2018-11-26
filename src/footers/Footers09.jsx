@@ -34,7 +34,7 @@ class Footers09 extends Component {
 
       <div className="col-12 col-lg-2 ml-auto text-lg-left mt-4 mt-lg-0">
         <h3><strong>Follow Us</strong></h3>
-        <p className="h3">
+        <p className="lead">
           <a href="https://www.froala.com" className="mx-2"><i className="fab fa-twitter" aria-hidden="true"></i></a>
           <a href="https://www.froala.com" className="mx-2"><i className="fab fa-facebook" aria-hidden="true"></i></a>
           <a href="https://www.froala.com" className="mx-2"><i className="fab fa-instagram" aria-hidden="true"></i></a>

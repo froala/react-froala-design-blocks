@@ -3,15 +3,15 @@ import Iframe from 'react-iframe';
 
 class Contacts04 extends Component {
   render() {
-    return <section className="fdb-block" style={{backgroundImage: 'imgs/bg_0.svg'}}>
-  <div className="container">
-    <div className="row">
-      <div className="col">
+    return <section className="fdb-block py-0">
+  <div className="container py-5 my-5" style={{backgroundImage: 'url(imgs/shapes/9.svg)'}}>
+    <div className="row py-5">
+      <div className="col py-5">
         <div className="fdb-box fdb-touch">
           <div className="row text-center justify-content-center">
             <div className="col-12 col-md-9 col-lg-7">
               <h1>Contact Us</h1>
-              <p className="h3">Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.</p>
+              <p className="lead">Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.</p>
             </div>
           </div>
 

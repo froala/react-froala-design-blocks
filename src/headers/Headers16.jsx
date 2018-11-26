@@ -7,7 +7,7 @@ class Headers16 extends Component {
   <div className="container">
     <nav className="navbar navbar-expand-md">
       <a className="navbar-brand" href="https://www.froala.com">
-        <img src="./imgs/img_logo.png" height="30" alt="image" />
+        <img src="./imgs/logo.png" height="30" alt="image" />
       </a>
 
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav11" aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">

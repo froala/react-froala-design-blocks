@@ -12,8 +12,11 @@ class Contents25 extends Component {
             <h1>Froala Design Blocks is Open Source and free to use</h1>
           </div>
         </div>
-
-        <img alt="image" className="img-fluid" src="./imgs/colors_wide_1.jpg" />
+      </div>
+    </div>
+    <div className="row justify-content-center">
+      <div className="col-8">
+        <img alt="image" className="img-fluid" src="./imgs/draws/android.svg" />
       </div>
     </div>
   </div>

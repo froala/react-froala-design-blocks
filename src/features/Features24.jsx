@@ -13,26 +13,26 @@ class Features24 extends Component {
       <div className="col-12 col-md-6 pt-5 pt-md-0">
         <div className="row justify-content-left">
           <div className="col-3 m-auto text-center">
-            <img alt="image" className="fdb-icon" src="./imgs/img_round.svg" />
+            <img alt="image" className="fdb-icon" src="./imgs/icons/gift.svg" />
             <p><a href="https://www.froala.com">One <i className="fas fa-angle-right"></i></a></p>
           </div>
           <div className="col-3 m-auto text-center">
-            <img alt="image" className="fdb-icon" src="./imgs/img_round.svg" />
+            <img alt="image" className="fdb-icon" src="./imgs/icons/map.svg" />
             <p><a href="https://www.froala.com">Two <i className="fas fa-angle-right"></i></a></p>
           </div>
           <div className="col-3 m-auto text-center">
-            <img alt="image" className="fdb-icon" src="./imgs/img_round.svg" />
+            <img alt="image" className="fdb-icon" src="./imgs/icons/life-buoy.svg" />
             <p><a href="https://www.froala.com">Three <i className="fas fa-angle-right"></i></a></p>
           </div>
         </div>
 
         <div className="row justify-content-left mt-4 mt-xl-5">
           <div className="col-3 m-auto text-center">
-            <img alt="image" className="fdb-icon" src="./imgs/img_round.svg" />
+            <img alt="image" className="fdb-icon" src="./imgs/icons/layout.svg" />
             <p><a href="https://www.froala.com">Four <i className="fas fa-angle-right"></i></a></p>
           </div>
           <div className="col-3 m-auto text-center">
-            <img alt="image" className="fdb-icon" src="./imgs/img_round.svg" />
+            <img alt="image" className="fdb-icon" src="./imgs/icons/map-pin.svg" />
             <p><a href="https://www.froala.com">Five <i className="fas fa-angle-right"></i></a></p>
           </div>
         </div>

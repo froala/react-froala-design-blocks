@@ -15,21 +15,21 @@ class Teams02 extends Component {
 
     <div className="row text-center justify-content-center">
       <div className="col-sm-3 m-sm-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/4.jpg" />
 
         <h2>Sara Doe</h2>
         <p>Founder</p>
       </div>
 
       <div className="col-sm-3 m-sm-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/5.jpg" />
 
         <h2>Sara Doe</h2>
         <p>Founder</p>
       </div>
 
       <div className="col-sm-3 m-sm-auto">
-        <img alt="image" className="img-fluid" src="./imgs/img_round.svg" />
+        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/7.jpg" />
 
         <h2>Sara Doe</h2>
 

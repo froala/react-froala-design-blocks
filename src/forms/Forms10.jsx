@@ -8,7 +8,7 @@ class Forms10 extends Component {
     <div className="row justify-content-center">
       <div className="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
         <h1>Company Name</h1>
-        <p className="h3">When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown.</p>
+        <p className="lead">When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown.</p>
         <div className="input-group mt-5 mb-5">
           <input type="text" className="form-control" placeholder="Enter your email address" />
           <div className="input-group-append">

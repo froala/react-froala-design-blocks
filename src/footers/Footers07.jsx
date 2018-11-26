@@ -7,7 +7,7 @@ class Footers07 extends Component {
   <div className="container">
     <div className="row text-center align-items-center">
       <div className="col-12 col-lg-2 text-lg-left">
-        <img alt="image" src="./imgs/img_logo.png" height="40" />
+        <img alt="image" src="./imgs/logo.png" height="40" />
       </div>
 
       <div className="col mt-4 mt-lg-0 text-center">

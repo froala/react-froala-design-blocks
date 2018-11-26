@@ -11,7 +11,7 @@ class Footers11 extends Component {
       </div>
 
       <div className="col-12 col-lg-4 mt-4 mt-lg-0">
-        <img alt="image" src="./imgs/img_logo.png" height="40" />
+        <img alt="image" src="./imgs/logo.png" height="40" />
       </div>
 
       <div className="col-12 col-lg-4 text-lg-right mt-4 mt-lg-0">

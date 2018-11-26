@@ -8,7 +8,7 @@ class Contacts10 extends Component {
     <div className="row text-center justify-content-center">
       <div className="col-12 col-md-8 col-lg-7">
         <h1>Contact Us</h1>
-        <p className="h3">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <p className="lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
       </div>
     </div>
     <div className="row-70"></div>

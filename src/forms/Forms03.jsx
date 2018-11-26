@@ -10,7 +10,7 @@ class Forms03 extends Component {
         <div className="row">
           <div className="col">
             <h1>Register</h1>
-            <p className="h3">When she reached the first hills, she had a last view back on the skyline of her hometown.</p>
+            <p className="lead">When she reached the first hills, she had a last view back on the skyline of her hometown.</p>
           </div>
         </div>
         <div className="row align-items-center">
@@ -21,7 +21,7 @@ class Forms03 extends Component {
             <input type="password" className="form-control" placeholder="Password" />
           </div>
           <div className="col-12 col-md-2 mt-4">
-            <button className="btn btn-primary" type="button">Submit</button>
+            <button className="btn btn-secondary" type="button">Submit</button>
           </div>
         </div>
       </div>

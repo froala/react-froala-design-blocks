@@ -8,10 +8,10 @@ class Features26 extends Component {
     <div className="row align-items-center pb-xl-5">
       <div className="col-12 col-md-7 col-xl-5">
         <h1>Froala Design Blocks</h1>
-        <p className="h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
       </div>
       <div className="col-12 col-sm-6 col-md-4 m-sm-auto mr-md-0 ml-md-auto pt-4 pt-md-0">
-        <img alt="image" className="img-fluid" src="./imgs/img_square_1.svg" />
+        <img alt="image" className="img-fluid" src="./imgs/draws/developer.svg" />
       </div>
     </div>
 

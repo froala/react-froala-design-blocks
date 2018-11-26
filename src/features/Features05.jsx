@@ -8,7 +8,7 @@ class Features05 extends Component {
     <div className="row align-items-center">
       <div className="col-12 col-lg-6 col-xl-5">
         <h1>Design Blocks</h1>
-        <p className="h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 
         <div className="row pt-4 pt-xl-5">
           <div className="col-12 col-md-5">
@@ -22,7 +22,7 @@ class Features05 extends Component {
         </div>
       </div>
       <div className="col-12 col-md-8 col-lg-6 m-auto mr-lg-0 ml-lg-auto pt-5 pt-lg-0">
-        <img alt="image" className="img-fluid" src="./imgs/colors_wide_1.jpg" />
+        <img alt="image" className="img-fluid" src="./imgs/draws/scrum.svg" />
       </div>
     </div>
   </div>

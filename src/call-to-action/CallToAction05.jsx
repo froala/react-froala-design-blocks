@@ -9,7 +9,7 @@ class CallToAction05 extends Component {
       <div className="col-12 col-md-8 text-center">
         <h1>Far far away, behind the word mountains, far from</h1>
         <p className="mt-5">
-          <a className="btn btn-primary" href="https://www.froala.com">Download</a>
+          <a className="btn btn-secondary" href="https://www.froala.com">Download</a>
         </p>
       </div>
     </div>

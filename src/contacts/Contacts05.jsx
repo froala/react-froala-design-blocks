@@ -50,18 +50,18 @@ class Contacts05 extends Component {
       <div className="row-50"></div>
       <div className="row justify-content-center text-center">
         <div className="col-12 col-md mr-auto ml-auto">
-          <img alt="image" height="40" className="mb-2" src="./imgs/img_round.svg" />
-          <p className="h3">+44 (112) 123 752</p>
+          <img alt="image" height="40" className="mb-2" src="./imgs/icons/phone.svg" />
+          <p className="lead">+44 (112) 123 752</p>
         </div>
 
         <div className="col-12 col-md pt-4 pt-md-0 mr-auto ml-auto">
-          <img alt="image" height="40" className="mb-2" src="./imgs/img_round.svg" />
-          <p className="h3">123 6th St.<br/>Melbourne, FL 32904</p>
+          <img alt="image" height="40" className="mb-2" src="./imgs/icons/navigation.svg" />
+          <p className="lead">123 6th St.<br/>Melbourne, FL 32904</p>
         </div>
 
         <div className="col-12 col-md pt-4 pt-md-0 mr-auto ml-auto">
-          <img alt="image" height="40" className="mb-2" src="./imgs/img_round.svg" />
-          <p className="h3">support@website.com</p>
+          <img alt="image" height="40" className="mb-2" src="./imgs/icons/mail.svg" />
+          <p className="lead">support@website.com</p>
         </div>
       </div>
       <div className="row-50"></div>

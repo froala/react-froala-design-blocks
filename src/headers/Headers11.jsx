@@ -7,7 +7,7 @@ class Headers11 extends Component {
   <div className="container">
     <nav className="navbar">
       <a href="https://www.froala.com">
-        <img src="./imgs/img_logo.png" height="30" alt="image" />
+        <img src="./imgs/logo.png" height="30" alt="image" />
       </a>
     </nav>
   </div>
