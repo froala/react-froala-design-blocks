@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Features14 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Features14(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row text-right align-items-center">
       <div className="col-7 col-md-4 m-auto">
@@ -43,9 +42,7 @@ class Features14 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Features14
