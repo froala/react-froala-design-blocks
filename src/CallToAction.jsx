@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import CallToAction01 from './call-to-action/CallToAction01.jsx';
 import CallToAction02 from './call-to-action/CallToAction02.jsx';
@@ -23,9 +23,8 @@ import CallToAction20 from './call-to-action/CallToAction20.jsx';
 import CallToAction21 from './call-to-action/CallToAction21.jsx';
 import CallToAction22 from './call-to-action/CallToAction22.jsx';
 
-class CallToAction extends Component {
-  render() {
-    return (
+function CallToAction(props) {
+  return (
       <div>
         <CallToAction01></CallToAction01>
         <CallToAction02></CallToAction02>
@@ -51,7 +50,6 @@ class CallToAction extends Component {
         <CallToAction22></CallToAction22>
       </div>
     )
-  }
 }
 
 export default CallToAction

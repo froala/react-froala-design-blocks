@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Contents01 from './contents/Contents01.jsx';
 import Contents02 from './contents/Contents02.jsx';
@@ -36,9 +36,8 @@ import Contents33 from './contents/Contents33.jsx';
 import Contents34 from './contents/Contents34.jsx';
 import Contents35 from './contents/Contents35.jsx';
 
-class Contents extends Component {
-  render() {
-    return (
+function Contents(props) {
+  return (
       <div>
         <Contents01></Contents01>
         <Contents02></Contents02>
@@ -77,7 +76,6 @@ class Contents extends Component {
         <Contents35></Contents35>
       </div>
     )
-  }
 }
 
 export default Contents

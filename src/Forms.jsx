@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Forms01 from './forms/Forms01.jsx';
 import Forms02 from './forms/Forms02.jsx';
@@ -13,9 +13,8 @@ import Forms10 from './forms/Forms10.jsx';
 import Forms11 from './forms/Forms11.jsx';
 import Forms12 from './forms/Forms12.jsx';
 
-class Forms extends Component {
-  render() {
-    return (
+function Forms(props) {
+  return (
       <div>
         <Forms01></Forms01>
         <Forms02></Forms02>
@@ -31,7 +30,6 @@ class Forms extends Component {
         <Forms12></Forms12>
       </div>
     )
-  }
 }
 
 export default Forms

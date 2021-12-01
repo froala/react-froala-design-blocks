@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Footers01 from './footers/Footers01.jsx';
 import Footers02 from './footers/Footers02.jsx';
@@ -13,9 +13,8 @@ import Footers10 from './footers/Footers10.jsx';
 import Footers11 from './footers/Footers11.jsx';
 import Footers12 from './footers/Footers12.jsx';
 
-class Footers extends Component {
-  render() {
-    return (
+function Footers(props) {
+  return (
       <div>
         <Footers01></Footers01>
         <Footers02></Footers02>
@@ -31,7 +30,6 @@ class Footers extends Component {
         <Footers12></Footers12>
       </div>
     )
-  }
 }
 
 export default Footers

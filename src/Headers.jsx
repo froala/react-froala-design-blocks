@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Headers01 from './headers/Headers01.jsx';
 import Headers02 from './headers/Headers02.jsx';
@@ -21,9 +21,8 @@ import Headers18 from './headers/Headers18.jsx';
 import Headers19 from './headers/Headers19.jsx';
 import Headers20 from './headers/Headers20.jsx';
 
-class Headers extends Component {
-  render() {
-    return (
+function Headers(props) {
+  return (
       <div>
         <Headers01></Headers01>
         <Headers02></Headers02>
@@ -47,7 +46,6 @@ class Headers extends Component {
         <Headers20></Headers20>
       </div>
     )
-  }
 }
 
 export default Headers

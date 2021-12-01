@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Contacts01 from './contacts/Contacts01.jsx';
 import Contacts02 from './contacts/Contacts02.jsx';
@@ -11,9 +11,8 @@ import Contacts08 from './contacts/Contacts08.jsx';
 import Contacts09 from './contacts/Contacts09.jsx';
 import Contacts10 from './contacts/Contacts10.jsx';
 
-class Contacts extends Component {
-  render() {
-    return (
+function Contacts(props) {
+  return (
       <div>
         <Contacts01></Contacts01>
         <Contacts02></Contacts02>
@@ -27,7 +26,6 @@ class Contacts extends Component {
         <Contacts10></Contacts10>
       </div>
     )
-  }
 }
 
 export default Contacts

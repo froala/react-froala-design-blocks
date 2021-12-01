@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import Gallery01 from './gallery/Gallery02.jsx';
+import Gallery01 from './gallery/Gallery01.jsx';
+import Gallery02 from './gallery/Gallery02.jsx';
 
-class Gallery extends Component {
-  render() {
-    return (
+function Gallery(props) {
+  return (
       <div>
         <Gallery01 />
+        <Gallery02 />
       </div>
     )
-  }
 }
 
 export default Gallery
