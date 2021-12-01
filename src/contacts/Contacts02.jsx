@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Contacts02 extends Component {
-  render() {
-    return <section className="fdb-block bg-dark" style={{backgroundImage: 'url(imgs/hero/blue.svg)'}}>
+function Contacts02(props) {
+  return (<section className="fdb-block bg-dark" style={{backgroundImage: 'url(imgs/hero/blue.svg)'}}>
   <div className="container">
     <div className="row text-center justify-content-center">
       <div className="col-12 col-md-8 col-lg-7">
         <h1>Contact Us</h1>
-        <h2>We love to hear from you!</h2>
+        <h2>We would love to hear from you!</h2>
       </div>
     </div>
 
@@ -46,9 +45,7 @@ class Contacts02 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contacts02

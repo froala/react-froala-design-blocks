@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Lists05 extends Component {
-  render() {
-    return <section className="fdb-block"> 
+function Lists05(props) {
+  return (<section className="fdb-block"> 
   <div className="container">
     <div className="row">
       <div className="col col-md-12">
@@ -23,9 +22,7 @@ class Lists05 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Lists05
