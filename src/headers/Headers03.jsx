@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Headers03 extends Component {
-  render() {
-    return <header>
+function Headers03(props) {
+  return (<header>
   <div className="container">
     <nav className="navbar navbar-expand-md">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav0" aria-controls="navbarNav0" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,9 +26,7 @@ class Headers03 extends Component {
       </div>
     </nav>
   </div>
-</header>
-
-  }
+</header>)
 }
 
 export default Headers03

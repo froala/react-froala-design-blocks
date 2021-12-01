@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Contents26 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contents26(props) {
+  return (<section className="fdb-block">
   <div className="col-fill-left" style={{backgroundImage: 'url(imgs/people/5.jpg)'}}>
   </div>
 
@@ -16,9 +15,7 @@ class Contents26 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents26

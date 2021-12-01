@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Headers08 extends Component {
-  render() {
-    return <header>
+function Headers08(props) {
+  return (<header>
   <div className="container">
     <nav className="navbar navbar-expand-lg">
       <a className="navbar-brand" href="https://www.froala.com">
@@ -45,9 +44,7 @@ class Headers08 extends Component {
       </div>
     </nav>
   </div>
-</header>
-
-  }
+</header>)
 }
 
 export default Headers08

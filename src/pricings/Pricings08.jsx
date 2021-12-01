@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Pricings08 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Pricings08(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row text-center">
       <div className="col">
@@ -48,9 +47,7 @@ class Pricings08 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Pricings08

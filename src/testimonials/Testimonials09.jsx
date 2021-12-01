@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Testimonials09 extends Component {
-  render() {
-    return <section className="fdb-block" style={{backgroundImage: 'url(imgs/shapes/9.svg)'}}>
+function Testimonials09(props) {
+  return (<section className="fdb-block" style={{backgroundImage: 'url(imgs/shapes/9.svg)'}}>
   <div className="container">
     <div className="row text-center justify-content-center">
       <div className="col-md-10 col-lg-8 col-xl-7">
@@ -82,9 +81,7 @@ class Testimonials09 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Testimonials09

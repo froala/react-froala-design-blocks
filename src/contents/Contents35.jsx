@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Contents35 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contents35(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row text-left align-items-center">
       <div className="col-10 col-sm-6 m-auto m-lg-0 col-lg-4">
@@ -27,9 +26,7 @@ class Contents35 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents35

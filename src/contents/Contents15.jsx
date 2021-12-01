@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Contents15 extends Component {
-  render() {
-    return <section className="fdb-block" style={{backgroundImage: 'url(./imgs/shapes/8.svg)'}}>
+function Contents15(props) {
+  return (<section className="fdb-block" style={{backgroundImage: 'url(./imgs/shapes/8.svg)'}}>
   <div className="container">
     <div className="row align-items-center">
       <div className="col-12 col-md-6 col-lg-5">
@@ -15,9 +14,7 @@ class Contents15 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents15

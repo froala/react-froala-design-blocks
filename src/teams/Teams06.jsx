@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Teams06 extends Component {
-  render() {
-    return <section className="fdb-block team-6">
+function Teams06(props) {
+  return (<section className="fdb-block team-6">
   <div className="container">
     <div className="row text-center justify-content-center">
       <div className="col-8">
@@ -33,9 +32,7 @@ class Teams06 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Teams06

@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
-class Headers15 extends Component {
-  render() {
-    return <header className="bg-dark">
+import React from 'react';
+function Headers15(props) {
+  return (<header className="bg-dark">
   <div className="container">
     <nav className="navbar navbar-expand-md no-gutters">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav10" aria-controls="navbarNav10" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,9 +43,7 @@ class Headers15 extends Component {
       </ul>
     </nav>
   </div>
-</header>
-
-  }
+</header>)
 }
 
 export default Headers15

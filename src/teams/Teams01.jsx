@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Teams01 extends Component {
-  render() {
-    return <section className="fdb-block team-1">
+function Teams01(props) {
+  return (<section className="fdb-block team-1">
   <div className="container">
     <div className="row text-center justify-content-center">
       <div className="col-8">
@@ -57,9 +56,7 @@ class Teams01 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Teams01

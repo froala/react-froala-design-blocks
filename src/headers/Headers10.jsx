@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Headers10 extends Component {
-  render() {
-    return <header>
+function Headers10(props) {
+  return (<header>
   <div className="container">
     <nav className="navbar navbar-expand-md no-gutters">
       <div className="col-3 text-left">
@@ -46,9 +45,7 @@ class Headers10 extends Component {
       </div>
     </nav>
   </div>
-</header>
-
-  }
+</header>)
 }
 
 export default Headers10

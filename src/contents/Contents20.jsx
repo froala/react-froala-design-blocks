@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Contents20 extends Component {
-  render() {
-    return <section className="fdb-block py-0">
+function Contents20(props) {
+  return (<section className="fdb-block py-0">
   <div className="container py-5 my-5" style={{backgroundImage: 'url(imgs/shapes/10.svg)'}}>
     <div className="row text-left py-5">
       <div className="col-12 col-sm-10 m-auto ml-md-5 col-md-8 col-lg-6">
@@ -19,9 +18,7 @@ class Contents20 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents20

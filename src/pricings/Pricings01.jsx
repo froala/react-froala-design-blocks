@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Pricings01 extends Component {
-  render() {
-    return <section className="fdb-block" style={{backgroundImage: 'url(./imgs/shapes/1.svg)'}}>
+function Pricings01(props) {
+  return (<section className="fdb-block" style={{backgroundImage: 'url(./imgs/shapes/1.svg)'}}>
   <div className="container">
     <div className="row text-center">
       <div className="col">
@@ -60,9 +59,7 @@ class Pricings01 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Pricings01

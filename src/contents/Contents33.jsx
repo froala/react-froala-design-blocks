@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Contents33 extends Component {
-  render() {
-    return <section className="fdb-block py-0">
+function Contents33(props) {
+  return (<section className="fdb-block py-0">
   <div className="container pt-5 mt-5" style={{backgroundImage: 'url(imgs/shapes/9.svg)'}}>
     <div className="row text-left pt-5">
       <div className="col-12 col-md-8 col-lg-6">
@@ -14,9 +13,7 @@ class Contents33 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents33
