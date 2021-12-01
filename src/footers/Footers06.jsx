@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Footers06 extends Component {
-  render() {
-    return <footer className="fdb-block footer-small bg-dark">
+function Footers06(props) {
+  return (<footer className="fdb-block footer-small bg-dark">
   <div className="container">
     <div className="row text-center align-items-center">
       <div className="col">
@@ -28,9 +27,7 @@ class Footers06 extends Component {
       </div>
     </div>
   </div>
-</footer>
-
-  }
+</footer>)
 }
 
 export default Footers06

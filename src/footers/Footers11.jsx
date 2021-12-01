@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Footers11 extends Component {
-  render() {
-    return <footer className="fdb-block footer-small">
+function Footers11(props) {
+  return (<footer className="fdb-block footer-small">
   <div className="container">
     <div className="row align-items-center text-center">
       <div className="col-12 col-lg-4 text-lg-left">
@@ -28,9 +27,7 @@ class Footers11 extends Component {
       </div>
     </div>
   </div>
-</footer>
-
-  }
+</footer>)
 }
 
 export default Footers11
