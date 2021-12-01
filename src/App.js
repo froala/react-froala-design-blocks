@@ -15,6 +15,8 @@ import Headers from './Headers.jsx';
 import Pricings from './Pricings.jsx';
 import Teams from './Teams.jsx';
 import Testimonials from './Testimonials.jsx';
+import Sample1 from './Sample1.jsx';
+import Sample2 from './Sample2.jsx';
 
 class App extends Component {
   render() {
@@ -54,6 +56,8 @@ class App extends Component {
                   <Link className="btn btn-outline-primary m-1" to="/pricings">Pricings</Link>
                   <Link className="btn btn-outline-primary m-1" to="/teams">Teams</Link>
                   <Link className="btn btn-outline-primary m-1" to="/testimonials">Testimonials</Link>
+                  <Link className="btn btn-outline-primary m-1" to="/sample1">Sample</Link>
+                  <Link className="btn btn-outline-primary m-1" to="/sample2">Sample 2</Link>
                 </nav>
               </div>
             </nav>
@@ -70,6 +74,8 @@ class App extends Component {
          <Route exact path="/pricings" component={Pricings} />
          <Route exact path="/teams" component={Teams} />
          <Route exact path="/testimonials" component={Testimonials} />
+         <Route exact path="/sample1" component={Sample1} />
+         <Route exact path="/sample2" component={Sample2} />
         </div>
        </Router>
     );
