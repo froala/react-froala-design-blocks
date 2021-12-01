@@ -16,7 +16,8 @@ import Pricings from './Pricings.jsx';
 import Teams from './Teams.jsx';
 import Testimonials from './Testimonials.jsx';
 import Lists from './Lists.jsx';
-import Carousels from './Carousels.jsx';
+import Carousels from './Carousels.jsx'; 
+import Gallery from "./Gallery.jsx";
 import Sample1 from './Sample1.jsx';
 import Sample2 from './Sample2.jsx';
 
@@ -59,6 +60,7 @@ function App() {
                   <Link className="btn btn-outline-primary m-1" to="/testimonials">Testimonials</Link>
                   <Link className="btn btn-outline-primary m-1" to="/lists">Lists</Link>
                   <Link className="btn btn-outline-primary m-1" to="/carousels">Carousels</Link>
+                  <Link className="btn btn-outline-primary m-1" to="/gallery">Gallery</Link>
                   <Link className="btn btn-outline-primary m-1" to="/sample1">Sample</Link>
                   <Link className="btn btn-outline-primary m-1" to="/sample2">Sample 2</Link>
                 </nav>
@@ -80,6 +82,7 @@ function App() {
          <Route exact path="/testimonials" element={<Testimonials />} />
          <Route exact path="/lists" element={<Lists />} />
          <Route exact path="/carousels" element={<Carousels />} />
+         <Route exact path="/gallery" element={<Gallery />} />
          <Route exact path="/sample1" element={<Sample1 />} />
          <Route exact path="/sample2" element={<Sample2 />} />
          
