@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Features26 extends Component {
   render() {
@@ -11,7 +10,7 @@ class Features26 extends Component {
         <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
       </div>
       <div className="col-12 col-sm-6 col-md-4 m-sm-auto mr-md-0 ml-md-auto pt-4 pt-md-0">
-        <img alt="image" className="img-fluid" src="./imgs/draws/developer.svg" />
+        <img alt="developer" className="img-fluid" src="./imgs/draws/developer.svg" />
       </div>
     </div>
 

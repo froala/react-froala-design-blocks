@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Forms11 extends Component {
   render() {
@@ -7,7 +6,7 @@ class Forms11 extends Component {
   <div className="container">
     <div className="row">
       <div className="col-12 col-md-6 m-md-auto ml-lg-0 col-lg-5">
-        <img alt="image" className="img-fluid" src="./imgs/draws/group-chat.svg" />
+        <img alt="chat" className="img-fluid" src="./imgs/draws/group-chat.svg" />
       </div>
       <div className="col-12 col-md-10 col-lg-6 mt-4 mt-lg-0 ml-auto mr-auto ml-lg-auto text-left">
         <div className="row">

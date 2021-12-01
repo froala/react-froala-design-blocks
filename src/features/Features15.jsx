@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Features15 extends Component {
   render() {
@@ -12,7 +11,7 @@ class Features15 extends Component {
 
         <div className="row pt-5">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/icons/gift.svg" />
+            <img alt="gift" className="img-fluid" src="./imgs/icons/gift.svg" />
           </div>
           <div className="col-9">
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences.</p>
@@ -25,13 +24,13 @@ class Features15 extends Component {
           </div>
 
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/icons/map-pin.svg" />
+            <img alt="map-pin" className="img-fluid" src="./imgs/icons/map-pin.svg" />
           </div>
         </div>
       </div>
 
       <div className="col-7 col-sm-4 m-auto pt-5 pt-md-0">
-        <img alt="image" className="img-fluid" src="./imgs/draws/simple-iphone.svg" />
+        <img alt="iphone" className="img-fluid" src="./imgs/draws/simple-iphone.svg" />
       </div>
     </div>
   </div>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Headers18 extends Component {
   render() {
@@ -7,7 +6,7 @@ class Headers18 extends Component {
   <div className="container">
     <nav className="navbar navbar-expand-lg">
       <a className="navbar-brand" href="https://www.froala.com">
-        <img src="./imgs/logo.png" height="30" alt="image" />
+        <img src="./imgs/logo.png" height="30" alt="logo" />
       </a>
 
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav13" aria-controls="navbarNav13" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Contents14 extends Component {
   render() {
@@ -7,7 +6,7 @@ class Contents14 extends Component {
   <div className="container">
     <div className="row align-items-center">
       <div className="col-12 col-md-6 mb-4 mb-md-0">
-        <img alt="image" className="img-fluid" src="./imgs/draws/smile.svg" />
+        <img alt="smile" className="img-fluid" src="./imgs/draws/smile.svg" />
       </div>
       <div className="col-12 col-md-6 col-lg-5 ml-md-auto text-left">
         <h1>Froala Blocks</h1>

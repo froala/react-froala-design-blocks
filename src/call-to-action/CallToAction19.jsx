@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class CallToAction19 extends Component {
   render() {
@@ -7,7 +6,7 @@ class CallToAction19 extends Component {
   <div className="container align-items-center justify-content-center d-flex">
     <div className="row align-items-center text-left">
       <div className="col-12 col-sm-6">
-        <img alt="image" className="img-fluid" src="./imgs/draws/sync2.svg" />
+        <img alt="sync" className="img-fluid" src="./imgs/draws/sync2.svg" />
       </div>
 
       <div className="col-12 col-lg-5 ml-auto pt-5 pt-lg-0">

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Contents08 extends Component {
   render() {
@@ -17,7 +16,7 @@ class Contents08 extends Component {
     </div>
     <div className="row justify-content-center">
       <div className="col-6">
-        <img alt="image" className="img-fluid mt-5" src="./imgs/draws/hosting.svg" />
+        <img alt="hosting" className="img-fluid mt-5" src="./imgs/draws/hosting.svg" />
       </div>
     </div>
   </div>

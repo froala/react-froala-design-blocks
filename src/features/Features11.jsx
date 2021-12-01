@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Features11 extends Component {
   render() {
@@ -14,7 +13,7 @@ class Features11 extends Component {
       <div className="col-12 col-md-4">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="fdb-icon" src="./imgs/icons/gift.svg" />
+            <img alt="gift" className="fdb-icon" src="./imgs/icons/gift.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature One</strong></h3>
@@ -26,7 +25,7 @@ class Features11 extends Component {
       <div className="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="fdb-icon" src="./imgs/icons/cloud.svg" />
+            <img alt="cloud" className="fdb-icon" src="./imgs/icons/cloud.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Two</strong></h3>
@@ -38,7 +37,7 @@ class Features11 extends Component {
       <div className="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="fdb-icon" src="./imgs/icons/map-pin.svg" />
+            <img alt="map-pin" className="fdb-icon" src="./imgs/icons/map-pin.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Three</strong></h3>
@@ -52,7 +51,7 @@ class Features11 extends Component {
       <div className="col-12 col-md-4">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="fdb-icon" src="./imgs/icons/layers.svg" />
+            <img alt="layers" className="fdb-icon" src="./imgs/icons/layers.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Four</strong></h3>
@@ -64,7 +63,7 @@ class Features11 extends Component {
       <div className="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="fdb-icon" src="./imgs/icons/life-buoy.svg" />
+            <img alt="bouy" className="fdb-icon" src="./imgs/icons/life-buoy.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Five</strong></h3>
@@ -76,7 +75,7 @@ class Features11 extends Component {
       <div className="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="fdb-icon" src="./imgs/icons/layout.svg" />
+            <img alt="layout" className="fdb-icon" src="./imgs/icons/layout.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Six</strong></h3>

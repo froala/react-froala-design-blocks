@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Features22 extends Component {
   render() {
@@ -13,7 +12,7 @@ class Features22 extends Component {
 
     <div className="row text-left align-items-center pt-5 pb-md-5">
       <div className="col-4 col-md-5">
-        <img alt="image" className="img-fluid" src="./imgs/draws/designer.svg" />
+        <img alt="designer" className="img-fluid" src="./imgs/draws/designer.svg" />
       </div>
 
       <div className="col-12 col-md-5 m-md-auto">
@@ -25,7 +24,7 @@ class Features22 extends Component {
 
     <div className="row text-left align-items-center pt-5 pb-md-5">
       <div className="col-4 col-md-5 m-md-auto order-md-5">
-        <img alt="image" className="img-fluid" src="./imgs/draws/design-life.svg" />
+        <img alt="life" className="img-fluid" src="./imgs/draws/design-life.svg" />
       </div>
 
       <div className="col-12 col-md-5">
@@ -37,7 +36,7 @@ class Features22 extends Component {
 
     <div className="row text-left align-items-center pt-5">
       <div className="col-4 col-md-5">
-        <img alt="image" className="img-fluid" src="./imgs/draws/design-community.svg" />
+        <img alt="community" className="img-fluid" src="./imgs/draws/design-community.svg" />
       </div>
 
       <div className="col-12 col-md-5 m-md-auto">

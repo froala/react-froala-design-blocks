@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Features14 extends Component {
   render() {
@@ -7,13 +6,13 @@ class Features14 extends Component {
   <div className="container">
     <div className="row text-right align-items-center">
       <div className="col-7 col-md-4 m-auto">
-        <img alt="image" className="img-fluid" src="./imgs/draws/simple-iphone.svg" />
+        <img alt="i[hone" className="img-fluid" src="./imgs/draws/simple-iphone.svg" />
       </div>
 
       <div className="col-12 col-md-7 col-lg-5 m-auto text-left pt-5 pt-md-0">
         <div className="row pb-lg-5">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/icons/layers.svg" />
+            <img alt="layers" className="img-fluid" src="./imgs/icons/layers.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Seven</strong></h3>
@@ -23,7 +22,7 @@ class Features14 extends Component {
 
         <div className="row pt-4 pt-md-5 pb-lg-5">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/icons/monitor.svg" />
+            <img alt="monitor" className="img-fluid" src="./imgs/icons/monitor.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Seven</strong></h3>
@@ -34,7 +33,7 @@ class Features14 extends Component {
 
         <div className="row pt-4 pt-md-5">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/icons/cloud.svg" />
+            <img alt="cloud" className="img-fluid" src="./imgs/icons/cloud.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Seven</strong></h3>

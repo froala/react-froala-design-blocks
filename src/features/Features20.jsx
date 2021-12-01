@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Features20 extends Component {
   render() {
@@ -10,7 +9,7 @@ class Features20 extends Component {
         <h1>Froala Design Blocks</h1>
         <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 
-        <img alt="image" className="img-fluid mt-5" src="./imgs/draws/android.svg" />
+        <img alt="android" className="img-fluid mt-5" src="./imgs/draws/android.svg" />
       </div>
     </div>
 

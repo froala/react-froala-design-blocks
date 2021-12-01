@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Teams01 extends Component {
   render() {
@@ -17,7 +16,7 @@ class Teams01 extends Component {
     <div className="row">
       <div className="col-sm-3 text-left">
         <div className="fdb-box p-0">
-          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/1.jpg" />
+          <img alt="person name" className="img-fluid rounded-0" src="./imgs/people/1.jpg" />
 
           <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>
@@ -28,7 +27,7 @@ class Teams01 extends Component {
 
       <div className="col-sm-3 text-left">
         <div className="fdb-box p-0">
-          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/2.jpg" />
+          <img alt="person name" className="img-fluid rounded-0" src="./imgs/people/2.jpg" />
 
           <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>
@@ -38,7 +37,7 @@ class Teams01 extends Component {
       </div>
       <div className="col-sm-3 text-left">
         <div className="fdb-box p-0">
-          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/3.jpg" />
+          <img alt="person name" className="img-fluid rounded-0" src="./imgs/people/3.jpg" />
 
           <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>
@@ -48,7 +47,7 @@ class Teams01 extends Component {
       </div>
       <div className="col-sm-3 text-left">
         <div className="fdb-box p-0">
-          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/6.jpg" />
+          <img alt="person name" className="img-fluid rounded-0" src="./imgs/people/6.jpg" />
 
           <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>

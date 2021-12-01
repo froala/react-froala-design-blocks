@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Testimonials05 extends Component {
   render() {
@@ -10,7 +9,7 @@ class Testimonials05 extends Component {
         <div className="fdb-box">
           <div className="row">
             <div className="col-8 col-sm-6 col-md-4 col-xl-3 ml-auto mr-auto">
-              <img alt="image" className="img-fluid rounded" src="./imgs/people/6.jpg" />
+              <img alt="person name" className="img-fluid rounded" src="./imgs/people/6.jpg" />
             </div>
 
             <div className="col-md-8 mt-4 mt-md-0">
@@ -29,7 +28,7 @@ class Testimonials05 extends Component {
         <div className="fdb-box">
           <div className="row">
             <div className="col-8 col-sm-6 col-md-4 col-xl-3 ml-auto mr-auto">
-              <img alt="image" className="img-fluid rounded" src="./imgs/people/8.jpg" />
+              <img alt="person name" className="img-fluid rounded" src="./imgs/people/8.jpg" />
             </div>
 
             <div className="col-md-8 mt-4 mt-md-0">

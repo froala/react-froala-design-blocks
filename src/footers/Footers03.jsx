@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Footers03 extends Component {
   render() {
@@ -10,7 +9,7 @@ class Footers03 extends Component {
         <ul className="nav justify-content-center justify-content-md-start align-items-center">
           <li className="nav-item">
             <a className="nav-link active" href="https://www.froala.com">
-                <img alt="image" src="./imgs/logo.png" height="40" />
+                <img alt="logo" src="./imgs/logo.png" height="40" />
               </a>
           </li>
           <li className="w-100 d-block d-sm-none"></li>

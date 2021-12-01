@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Features25 extends Component {
   render() {
@@ -15,21 +14,21 @@ class Features25 extends Component {
 
     <div className="row text-center justify-content-center mt-5">
       <div className="col-10 col-sm-3">
-        <img alt="image" className="img-fluid rounded" src="./imgs/hero/blue.svg" />
+        <img alt="blue" className="img-fluid rounded" src="./imgs/hero/blue.svg" />
         <h3><strong>Feature One</strong></h3>
       </div>
       <div className="col-10 col-sm-3 pt-5 pt-sm-0">
-        <img alt="image" className="img-fluid rounded" src="./imgs/hero/red.svg" />
+        <img alt="red" className="img-fluid rounded" src="./imgs/hero/red.svg" />
         <h3><strong>Feature Two</strong></h3>
       </div>
 
       <div className="col-10 col-sm-3 pt-5 pt-sm-0">
-        <img alt="image" className="img-fluid rounded" src="./imgs/hero/purple.svg" />
+        <img alt="purple" className="img-fluid rounded" src="./imgs/hero/purple.svg" />
         <h3><strong>Feature Three</strong></h3>
       </div>
 
       <div className="col-10 col-sm-3 pt-5 pt-sm-0">
-        <img alt="image" className="img-fluid rounded" src="./imgs/hero/yellow.svg" />
+        <img alt="yellow" className="img-fluid rounded" src="./imgs/hero/yellow.svg" />
         <h3><strong>Feature Four</strong></h3>
       </div>
     </div>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class CallToAction20 extends Component {
   render() {
@@ -17,7 +16,7 @@ class CallToAction20 extends Component {
 
     <div className="row pt-5">
       <div className="col-6 offset-3">
-        <img alt="image" className="img-fluid" src="./imgs/draws/rocket.svg" />
+        <img alt="rocket" className="img-fluid" src="./imgs/draws/rocket.svg" />
       </div>
     </div>
   </div>

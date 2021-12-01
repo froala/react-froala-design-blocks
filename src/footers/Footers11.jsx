@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Footers11 extends Component {
   render() {
@@ -11,7 +10,7 @@ class Footers11 extends Component {
       </div>
 
       <div className="col-12 col-lg-4 mt-4 mt-lg-0">
-        <img alt="image" src="./imgs/logo.png" height="40" />
+        <img alt="logo" src="./imgs/logo.png" height="40" />
       </div>
 
       <div className="col-12 col-lg-4 text-lg-right mt-4 mt-lg-0">

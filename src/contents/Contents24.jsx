@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Contents24 extends Component {
   render() {
@@ -11,14 +10,14 @@ class Contents24 extends Component {
         <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
 
         <p className="mt-5">
-          <img alt="image" height="25" className="mr-4" src="./imgs/customers/samsung.svg" />
-          <img alt="image" height="25" className="mr-4" src="./imgs/customers/adobe.svg" />
-          <img alt="image" height="25" src="./imgs/customers/amazon.svg" />
+          <img alt="samsung" height="25" className="mr-4" src="./imgs/customers/samsung.svg" />
+          <img alt="adobe" height="25" className="mr-4" src="./imgs/customers/adobe.svg" />
+          <img alt="amazon" height="25" src="./imgs/customers/amazon.svg" />
         </p>
       </div>
 
       <div className="col-10 col-sm-6 col-md-5 col-lg-4 m-auto pt-5 pt-md-0">
-        <img alt="image" className="img-fluid rounded-0" src="./imgs/draws/customer-survey.svg" />
+        <img alt="survey" className="img-fluid rounded-0" src="./imgs/draws/customer-survey.svg" />
       </div>
     </div>
   </div>

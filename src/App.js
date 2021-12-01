@@ -76,10 +76,4 @@ class App extends Component {
   }
 }
 
-function Home() {
-  return (
-    ''
-  );
-}
-
 export default App;

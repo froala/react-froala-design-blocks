@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Teams08 extends Component {
   render() {
@@ -18,7 +17,7 @@ class Teams08 extends Component {
       <div className="col-sm-6">
         <div className="row align-items-center">
           <div className="col-4">
-            <img alt="image" className="img-fluid rounded" src="./imgs/people/8.jpg" />
+            <img alt="person name" className="img-fluid rounded" src="./imgs/people/8.jpg" />
           </div>
 
           <div className="col-8">
@@ -33,7 +32,7 @@ class Teams08 extends Component {
       <div className="col-sm-6">
         <div className="row align-items-center">
           <div className="col-4">
-            <img alt="image" className="img-fluid rounded" src="./imgs/people/7.jpg" />
+            <img alt="person name" className="img-fluid rounded" src="./imgs/people/7.jpg" />
           </div>
 
           <div className="col-8">
@@ -52,7 +51,7 @@ class Teams08 extends Component {
       <div className="col-sm-6">
         <div className="row align-items-center">
           <div className="col-4">
-            <img alt="image" className="img-fluid rounded" src="./imgs/people/9.jpg" />
+            <img alt="person name" className="img-fluid rounded" src="./imgs/people/9.jpg" />
           </div>
 
           <div className="col-8">
@@ -67,7 +66,7 @@ class Teams08 extends Component {
       <div className="col-sm-6">
         <div className="row align-items-center">
           <div className="col-4">
-            <img alt="image" className="img-fluid rounded" src="./imgs/people/4.jpg" />
+            <img alt="person name" className="img-fluid rounded" src="./imgs/people/4.jpg" />
           </div>
 
           <div className="col-8">

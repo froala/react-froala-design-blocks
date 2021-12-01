@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class CallToAction22 extends Component {
   render() {
@@ -15,14 +14,14 @@ class CallToAction22 extends Component {
 
     <div className="row text-center justify-content-center pt-5">
       <div className="col-12 col-sm-6 col-lg-3">
-        <img alt="image" className="fdb-icon" src="./imgs/icons/cloud.svg" />
+        <img alt="cloud" className="fdb-icon" src="./imgs/icons/cloud.svg" />
 
         <h3><strong>Feature One</strong></h3>
 
         <p>Far far away, behind the word mountains, far from the countries</p>
       </div>
       <div className="col-12 col-sm-6 col-lg-3 pt-4 pt-sm-0">
-        <img alt="image" className="fdb-icon" src="./imgs/icons/gift.svg" />
+        <img alt="gift" className="fdb-icon" src="./imgs/icons/gift.svg" />
 
         <h3><strong>Feature Two</strong></h3>
 
@@ -30,7 +29,7 @@ class CallToAction22 extends Component {
       </div>
 
       <div className="col-12 col-sm-6 col-lg-3 pt-4 pt-lg-0">
-        <img alt="image" className="fdb-icon" src="./imgs/icons/github.svg" />
+        <img alt="github" className="fdb-icon" src="./imgs/icons/github.svg" />
 
         <h3><strong>Feature Three</strong></h3>
 
@@ -38,7 +37,7 @@ class CallToAction22 extends Component {
       </div>
 
       <div className="col-12 col-sm-6 col-lg-3 pt-4 pt-lg-0">
-        <img alt="image" className="fdb-icon" src="./imgs/icons/compass.svg" />
+        <img alt="compass" className="fdb-icon" src="./imgs/icons/compass.svg" />
 
         <h3><strong>Feature Four</strong></h3>
 

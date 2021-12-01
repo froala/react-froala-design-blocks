@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Testimonials04 extends Component {
   render() {
@@ -11,7 +10,7 @@ class Testimonials04 extends Component {
           <p className="h3 mb-4">"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics."</p>
 
           <p>
-            <img alt="image" height="50" className="rounded-circle" src="./imgs/people/5.jpg" />
+            <img alt="person name" height="50" className="rounded-circle" src="./imgs/people/5.jpg" />
             <strong className="ml-3">Person Name</strong>
           </p>
         </div>
@@ -22,7 +21,7 @@ class Testimonials04 extends Component {
           <p className="h3 mb-4">"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."</p>
 
           <p>
-            <img alt="image" height="50" className="rounded-circle" src="./imgs/people/4.jpg" />
+            <img alt="person name" height="50" className="rounded-circle" src="./imgs/people/4.jpg" />
             <strong className="ml-3">Person Name</strong>
           </p>
         </div>

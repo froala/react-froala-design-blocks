@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Headers05 extends Component {
   render() {
@@ -12,7 +11,7 @@ class Headers05 extends Component {
 
       <div className="col-4 col-md-2 text-right text-md-center order-lg-6">
         <a href="https://www.froala.com">
-          <img src="./imgs/logo.png" height="30" alt="image" />
+          <img src="./imgs/logo.png" height="30" alt="logo" />
         </a>
       </div>
 

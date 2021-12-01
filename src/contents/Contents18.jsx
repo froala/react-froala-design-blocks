@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Contents18 extends Component {
   render() {
@@ -19,7 +18,7 @@ class Contents18 extends Component {
         </p>
       </div>
       <div className="col-12 col-md-8 m-auto ml-lg-auto mr-lg-0 col-lg-6 pt-5 pt-lg-0">
-        <img alt="image" className="img-fluid" src="./imgs/draws/browsers.svg" />
+        <img alt="browsers" className="img-fluid" src="./imgs/draws/browsers.svg" />
       </div>
     </div>
   </div>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Pricings08 extends Component {
   render() {
@@ -13,7 +12,7 @@ class Pricings08 extends Component {
 
     <div className="row mt-5 align-items-top">
       <div className="col-12 col-md-8 m-auto col-lg-4 text-center">
-        <img alt="image" height="60" src="./imgs/icons/cloud.svg" />
+        <img alt="cloud" height="60" src="./imgs/icons/cloud.svg" />
         <h2><strong>Startup</strong></h2>
         <p className="h3 mb-4 mb-lg-5"><em>$9 / month</em></p>
 
@@ -25,7 +24,7 @@ class Pricings08 extends Component {
       </div>
 
       <div className="col-12 col-md-8 col-lg-4 text-center m-auto pt-5 pt-lg-0">
-        <img alt="image" height="60" src="./imgs/icons/life-buoy.svg" />
+        <img alt="bouy" height="60" src="./imgs/icons/life-buoy.svg" />
         <h2><strong>Advanced</strong></h2>
         <p className="h3 mb-4 mb-lg-5"><em>$19 / month</em></p>
 
@@ -37,7 +36,7 @@ class Pricings08 extends Component {
       </div>
 
       <div className="col-12 col-md-8 m-auto col-lg-4 text-center pt-5 pt-lg-0">
-        <img alt="image" height="60" src="./imgs/icons/layers.svg" />
+        <img alt="layers" height="60" src="./imgs/icons/layers.svg" />
         <h2><strong>Business</strong></h2>
         <p className="h3 mb-4 mb-lg-5"><em>$29 / month</em></p>
 

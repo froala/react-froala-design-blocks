@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Forms09 extends Component {
   render() {
@@ -7,7 +6,7 @@ class Forms09 extends Component {
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-12  col-md-10 col-lg-8 col-xl-6 text-center">
-        <img alt="image" height="40" src="./imgs/icons/layers.svg" />
+        <img alt="layers" height="40" src="./imgs/icons/layers.svg" />
         <h1>Never miss an update</h1>
         <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
         <div className="input-group mt-4 mb-4">

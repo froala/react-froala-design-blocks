@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Features23 extends Component {
   render() {
@@ -18,19 +17,19 @@ class Features23 extends Component {
       <div className="col-12 col-md-10 col-lg-8">
         <div className="row">
           <div className="col-8 col-sm-5 col-md-2 m-auto">
-            <img alt="image" className="img-fluid" src="./imgs/icons/github.svg" />
+            <img alt="github" className="img-fluid" src="./imgs/icons/github.svg" />
             <h4>Feature One</h4>
           </div>
           <div className="col-8 col-sm-5 col-md-2 m-auto pt-5 pt-sm-0">
-            <img alt="image" className="img-fluid" src="./imgs/icons/monitor.svg" />
+            <img alt="monitor" className="img-fluid" src="./imgs/icons/monitor.svg" />
             <h4>Feature Two</h4>
           </div>
           <div className="col-8 col-sm-5 col-md-2 m-auto pt-5 pt-md-0">
-            <img alt="image" className="img-fluid" src="./imgs/icons/layers.svg" />
+            <img alt="layers" className="img-fluid" src="./imgs/icons/layers.svg" />
             <h4>Feature Three</h4>
           </div>
           <div className="col-8 col-sm-5 col-md-2 m-auto pt-5 pt-md-0">
-            <img alt="image" className="img-fluid" src="./imgs/icons/cloud.svg" />
+            <img alt="cloud" className="img-fluid" src="./imgs/icons/cloud.svg" />
             <h4>Feature Four</h4>
           </div>
         </div>

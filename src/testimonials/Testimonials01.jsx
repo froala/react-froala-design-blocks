@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Testimonials01 extends Component {
   render() {
@@ -14,7 +13,7 @@ class Testimonials01 extends Component {
         <p className="lead"><strong>Person Name</strong> <em className="ml-4">Co-founder at Company</em></p>
       </div>
       <div className="col-8 col-sm-6 col-md-2 col-lg-3 col-xl-2 mt-4 mt-md-0 ml-auto mr-auto mr-md-0">
-        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/1.jpg" />
+        <img alt="person name" className="img-fluid rounded-circle" src="./imgs/people/1.jpg" />
       </div>
     </div>
   </div>

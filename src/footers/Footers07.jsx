@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe';
 
 class Footers07 extends Component {
   render() {
@@ -7,7 +6,7 @@ class Footers07 extends Component {
   <div className="container">
     <div className="row text-center align-items-center">
       <div className="col-12 col-lg-2 text-lg-left">
-        <img alt="image" src="./imgs/logo.png" height="40" />
+        <img alt="logo" src="./imgs/logo.png" height="40" />
       </div>
 
       <div className="col mt-4 mt-lg-0 text-center">
@@ -31,11 +30,11 @@ class Footers07 extends Component {
       </div>
 
       <div className="col-12 col-lg-2 mt-4 mt-lg-0 text-lg-right">
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-twitter" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-facebook" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-pinterest" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-google" aria-hidden="true"></i></a>
+        <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>twitter</span><i title="twitter" className="fab fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>facebook</span><i className="fab fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>instagram</span><i className="fab fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>pinterest</span><i className="fab fa-pinterest" aria-hidden="true"></i></a>
+        <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>google</span><i className="fab fa-google" aria-hidden="true"></i></a>
       </div>
     </div>
 
