@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class CallToAction18 extends Component {
-  render() {
-    return <section className="fdb-block">
+function CallToAction18(props) {
+  return (<section className="fdb-block">
   <div className="container align-items-end justify-content-center d-flex">
     <div className="row align-items-top text-left">
       <div className="col-12 col-md-6 col-lg-5">
@@ -17,9 +16,7 @@ class CallToAction18 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default CallToAction18

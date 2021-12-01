@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class CallToAction13 extends Component {
-  render() {
-    return <section className="fdb-block fdb-viewport bg-dark" style={{backgroundImage: 'url(imgs/hero/purple.svg)'}}>
+function CallToAction13(props) {
+  return (<section className="fdb-block fdb-viewport bg-dark" style={{backgroundImage: 'url(imgs/hero/purple.svg)'}}>
   <div className="container justify-content-center align-items-center d-flex">
     <div className="row justify-content-center text-center">
       <div className="col-12 col-md-8">
@@ -13,9 +12,7 @@ class CallToAction13 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default CallToAction13

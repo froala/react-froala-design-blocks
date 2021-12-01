@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Forms09 extends Component {
-  render() {
-    return <section className="fdb-block bg-gray">
+function  Forms09 (props) {
+  return(<section className="fdb-block bg-gray">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-12  col-md-10 col-lg-8 col-xl-6 text-center">
@@ -19,9 +18,7 @@ class Forms09 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Forms09

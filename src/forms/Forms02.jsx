@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Forms02 extends Component {
-  render() {
-    return <section className="fdb-block" style={{backgroundImage: 'url(imgs/hero/blue.svg)'}}>
+function  Forms02 (props) {
+  return(<section className="fdb-block" style={{backgroundImage: 'url(imgs/hero/blue.svg)'}}>
   <div className="container">
     <div className="fdb-box">
       <div className="row justify-content-center align-items-center">
@@ -21,9 +20,7 @@ class Forms02 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Forms02

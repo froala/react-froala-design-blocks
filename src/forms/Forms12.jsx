@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Forms12 extends Component {
-  render() {
-    return <section className="fdb-block" style={{backgroundImage: 'url(imgs/shapes/1.svg)'}}>
+function  Forms12 (props) {
+  return(<section className="fdb-block" style={{backgroundImage: 'url(imgs/shapes/1.svg)'}}>
   <div className="container">
     <div className="row justify-content-end">
       <div className="col-12 col-md-9 col-lg-8">
@@ -27,9 +26,7 @@ class Forms12 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Forms12

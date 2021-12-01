@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Forms04 extends Component {
-  render() {
-    return <section className="fdb-block py-0">
+function  Forms04 (props) {
+  return(<section className="fdb-block py-0">
   <div className="container py-5 my-5" style={{backgroundImage: 'url(imgs/shapes/6.svg)'}}>
     <div className="row">
       <div className="col-12 col-md-8 col-lg-7 col-xl-5 text-left">
@@ -30,9 +29,7 @@ class Forms04 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Forms04

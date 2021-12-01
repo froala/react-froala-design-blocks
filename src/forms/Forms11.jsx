@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Forms11 extends Component {
-  render() {
-    return <section className="fdb-block">
+function  Forms11 (props) {
+  return(<section className="fdb-block">
   <div className="container">
     <div className="row">
       <div className="col-12 col-md-6 m-md-auto ml-lg-0 col-lg-5">
@@ -34,9 +33,7 @@ class Forms11 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Forms11

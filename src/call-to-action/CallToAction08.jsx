@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class CallToAction08 extends Component {
-  render() {
-    return <section className="fdb-block py-0">
+function CallToAction08(props) {
+  return (<section className="fdb-block py-0">
   <div className="container py-5 my-5" style={{backgroundImage: 'url(imgs/shapes/2.svg)'}}>
     <div className="row justify-content-center py-5">
       <div className="col-12 col-md-10 col-lg-8 text-center">
@@ -18,9 +17,7 @@ class CallToAction08 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default CallToAction08
