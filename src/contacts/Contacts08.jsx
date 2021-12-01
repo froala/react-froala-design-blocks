@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Contacts08 extends Component {
-  render() {
-    return <section className="fdb-block pt-0" style={{backgroundImage: 'url(./imgs/shapes/8.svg)'}}>
+function Contacts08(props) {
+  return (<section className="fdb-block pt-0" style={{backgroundImage: 'url(./imgs/shapes/8.svg)'}}>
   <div className="bg-gray">
     <div className="container">
       <div className="row-100"></div>
@@ -113,9 +112,7 @@ class Contacts08 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contacts08

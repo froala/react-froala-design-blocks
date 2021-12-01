@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 import Iframe from 'react-iframe';
 
-class Contacts03 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contacts03(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row text-center justify-content-center">
       <div className="col-12 col-md-8 col-lg-7">
@@ -46,9 +44,7 @@ class Contacts03 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contacts03
