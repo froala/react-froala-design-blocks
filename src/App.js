@@ -3,7 +3,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/froala-design-blocks/dist/css/froala_blocks.css';
 
 import { Link, Route, Routes, BrowserRouter as Router } from "react-router-dom";
-import React, { Component } from 'react';
+import React from 'react';
 
 import CallToAction from './CallToAction.jsx';
 import Contacts from './Contacts.jsx';
@@ -20,8 +20,7 @@ import Carousels from './Carousels.jsx';
 import Sample1 from './Sample1.jsx';
 import Sample2 from './Sample2.jsx';
 
-class App extends Component {
-  render() {
+function App() {
     return (
       <Router>
       <div>
@@ -89,7 +88,6 @@ class App extends Component {
         </div>
        </Router>
     );
-  }
 }
 
 export default App;
