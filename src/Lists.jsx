@@ -16,7 +16,7 @@ class Contents extends Component {
         <Lists03 />
         <Lists04 />
         <Lists05 />
-        <Lists06 />
+        <Lists06 /> 
       </div>
     )
   }
