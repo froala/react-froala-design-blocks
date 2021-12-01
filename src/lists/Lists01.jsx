@@ -6,10 +6,10 @@ class Lists01 extends Component {
   <div className="container">
     <div className="row">
       <div className="col col-md-12">
-        <ol class="list-group list-group-numbered">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Cras justo odio</li>
+        <ol className="list-group list-group-numbered">
+          <li className="list-group-item">Cras justo odio</li>
+          <li className="list-group-item">Cras justo odio</li>
+          <li className="list-group-item">Cras justo odio</li>
         </ol>
       </div>
     </div>

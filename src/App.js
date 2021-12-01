@@ -2,7 +2,7 @@ import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/froala-design-blocks/dist/css/froala_blocks.css';
 
-import { Link, Route, BrowserRouter as Router } from "react-router-dom";
+import { Link, Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import React, { Component } from 'react';
 
 import CallToAction from './CallToAction.jsx';
@@ -16,6 +16,7 @@ import Pricings from './Pricings.jsx';
 import Teams from './Teams.jsx';
 import Testimonials from './Testimonials.jsx';
 import Lists from './Lists.jsx';
+import Carousels from './Carousels.jsx';
 import Sample1 from './Sample1.jsx';
 import Sample2 from './Sample2.jsx';
 
@@ -58,6 +59,7 @@ class App extends Component {
                   <Link className="btn btn-outline-primary m-1" to="/teams">Teams</Link>
                   <Link className="btn btn-outline-primary m-1" to="/testimonials">Testimonials</Link>
                   <Link className="btn btn-outline-primary m-1" to="/lists">Lists</Link>
+                  <Link className="btn btn-outline-primary m-1" to="/carousels">Carousels</Link>
                   <Link className="btn btn-outline-primary m-1" to="/sample1">Sample</Link>
                   <Link className="btn btn-outline-primary m-1" to="/sample2">Sample 2</Link>
                 </nav>
@@ -66,19 +68,24 @@ class App extends Component {
           </div>
         </section>
 
-         <Route exact path="/call-to-action" component={CallToAction} />
-         <Route exact path="/contacts" component={Contacts} />
-         <Route exact path="/contents" component={Contents} />
-         <Route exact path="/features" component={Features} />
-         <Route exact path="/footers" component={Footers} />
-         <Route exact path="/forms" component={Forms} />
-         <Route exact path="/headers" component={Headers} />
-         <Route exact path="/pricings" component={Pricings} />
-         <Route exact path="/teams" component={Teams} />  
-         <Route exact path="/testimonials" component={Testimonials} />
-         <Route exact path="/lists" component={Lists} />
-         <Route exact path="/sample1" component={Sample1} />
-         <Route exact path="/sample2" component={Sample2} />
+        <Routes>
+         <Route exact path="/call-to-action" element={<CallToAction />} />
+         <Route exact path="/contacts" element={<Contacts />} />
+         <Route exact path="/contents" element={<Contents />} />
+         <Route exact path="/features" element={<Features />} />
+         <Route exact path="/footers" element={<Footers />} />
+         <Route exact path="/forms" element={<Forms />} />
+         <Route exact path="/headers" element={<Headers />} />
+         <Route exact path="/pricings" element={<Pricings />} />
+         <Route exact path="/teams" element={<Teams />} />  
+         <Route exact path="/testimonials" element={<Testimonials />} />
+         <Route exact path="/lists" element={<Lists />} />
+         <Route exact path="/carousels" element={<Carousels />} />
+         <Route exact path="/sample1" element={<Sample1 />} />
+         <Route exact path="/sample2" element={<Sample2 />} />
+         
+         <Route path="/" element={<Sample1 />} />
+         </Routes>
         </div>
        </Router>
     );
