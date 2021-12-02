@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Contacts01 from './contacts/Contacts01.jsx';
 import Contacts02 from './contacts/Contacts02.jsx';
@@ -11,23 +11,24 @@ import Contacts08 from './contacts/Contacts08.jsx';
 import Contacts09 from './contacts/Contacts09.jsx';
 import Contacts10 from './contacts/Contacts10.jsx';
 
-class Contacts extends Component {
-  render() {
-    return (
+function Contacts(props) {
+
+  let dark=true;
+
+  return (
       <div>
-        <Contacts01></Contacts01>
-        <Contacts02></Contacts02>
-        <Contacts03></Contacts03>
-        <Contacts04></Contacts04>
-        <Contacts05></Contacts05>
-        <Contacts06></Contacts06>
-        <Contacts07></Contacts07>
-        <Contacts08></Contacts08>
-        <Contacts09></Contacts09>
-        <Contacts10></Contacts10>
+        <Contacts01 dark={dark} />
+        <Contacts02 dark={dark} />
+        <Contacts03 dark={dark} />
+        <Contacts04 dark={dark} />
+        <Contacts05 dark={dark} />
+        <Contacts06 dark={dark} />
+        <Contacts07 dark={dark} />
+        <Contacts08 dark={dark} />
+        <Contacts09 dark={dark} />
+        <Contacts10 dark={dark} />
       </div>
     )
-  }
 }
 
 export default Contacts

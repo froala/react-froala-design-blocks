@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contents18 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contents18(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row align-items-center">
       <div className="col-12 col-md-12 col-lg-6 col-xl-5">
@@ -19,13 +17,11 @@ class Contents18 extends Component {
         </p>
       </div>
       <div className="col-12 col-md-8 m-auto ml-lg-auto mr-lg-0 col-lg-6 pt-5 pt-lg-0">
-        <img alt="image" className="img-fluid" src="./imgs/draws/browsers.svg" />
+        <img alt="browsers" className="img-fluid" src="./imgs/draws/browsers.svg" />
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents18

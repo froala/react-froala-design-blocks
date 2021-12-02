@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Pricings04 extends Component {
-  render() {
-    return <section className="fdb-block py-0">
+function Pricings04(props) {
+  return (<section className="fdb-block py-0">
   <div className="container pt-5 my-5" style={{backgroundImage: 'url(imgs/shapes/2.svg)'}}>
     <div className="row text-center py-5">
       <div className="col">
@@ -65,9 +63,7 @@ class Pricings04 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Pricings04

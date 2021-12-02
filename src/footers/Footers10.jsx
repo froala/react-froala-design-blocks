@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Footers10 extends Component {
-  render() {
-    return <footer className="fdb-block footer-large bg-dark">
+function Footers10(props) {
+  return (<footer className={`fdb-block footer-large ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row align-items-top text-center text-md-left">
       <div className="col-12 col-sm-6 col-md-4">
@@ -32,9 +30,7 @@ class Footers10 extends Component {
       </div>
     </div>
   </div>
-</footer>
-
-  }
+</footer>)
 }
 
 export default Footers10

@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
+import CopyRight from "../components/copyright.jsx";
 
-class Footers06 extends Component {
-  render() {
-    return <footer className="fdb-block footer-small bg-dark">
+function Footers06(props) {
+  return (<footer className={`fdb-block footer-small ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row text-center align-items-center">
       <div className="col">
@@ -25,13 +24,11 @@ class Footers06 extends Component {
           </li>
         </ul>
 
-        <p className="h5 mt-5">© 2013-2018 Froala</p>
+        <CopyRight />
       </div>
     </div>
   </div>
-</footer>
-
-  }
+</footer>)
 }
 
 export default Footers06

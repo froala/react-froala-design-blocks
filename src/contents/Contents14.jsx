@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contents14 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contents14(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row align-items-center">
       <div className="col-12 col-md-6 mb-4 mb-md-0">
-        <img alt="image" className="img-fluid" src="./imgs/draws/smile.svg" />
+        <img alt="smile" className="img-fluid" src="./imgs/draws/smile.svg" />
       </div>
       <div className="col-12 col-md-6 col-lg-5 ml-md-auto text-left">
         <h1>Froala Blocks</h1>
@@ -16,9 +14,7 @@ class Contents14 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents14

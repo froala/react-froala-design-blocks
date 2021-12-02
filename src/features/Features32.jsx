@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Features32 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Features32(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row text-left">
       <div className="col-12 col-md-8 m-auto col-lg-4">
@@ -29,9 +27,7 @@ class Features32 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Features32

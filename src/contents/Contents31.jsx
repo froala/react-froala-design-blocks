@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contents31 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contents31(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row text-left align-items-center">
       <div className="col-12 col-md-6 col-lg-4">
@@ -19,13 +17,11 @@ class Contents31 extends Component {
       </div>
 
       <div className="col-12 col-md-8 m-auto m-lg-0 col-lg-4 pt-5 pt-lg-0">
-        <img alt="image" className="img-fluid" src="./imgs/draws/tabs.svg" />
+        <img alt="tabs" className="img-fluid" src="./imgs/draws/tabs.svg" />
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents31

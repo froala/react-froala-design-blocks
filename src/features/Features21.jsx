@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Features21 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Features21(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-12 text-left">
@@ -15,21 +13,19 @@ class Features21 extends Component {
 
     <div className="row text-left pt-5">
       <div className="col-12 col-sm-6 col-md-5">
-        <img alt="image" className="fdb-icon" src="./imgs/icons/layers.svg" />
+        <img alt="layers" className="fdb-icon" src="./imgs/icons/layers.svg" />
         <h3><strong>Feature One</strong></h3>
         <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
       </div>
 
       <div className="col-12 col-sm-6 col-md-5 ml-sm-auto pt-5 pt-sm-0">
-        <img alt="image" className="fdb-icon" src="./imgs/icons/package.svg" />
+        <img alt="package" className="fdb-icon" src="./imgs/icons/package.svg" />
         <h3><strong>Feature Two</strong></h3>
         <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Features21

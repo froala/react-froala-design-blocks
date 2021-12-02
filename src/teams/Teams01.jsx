@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Teams01 extends Component {
-  render() {
-    return <section className="fdb-block team-1">
+function Teams01(props) {
+  return (<section className="fdb-block team-1">
   <div className="container">
     <div className="row text-center justify-content-center">
       <div className="col-8">
@@ -17,7 +15,7 @@ class Teams01 extends Component {
     <div className="row">
       <div className="col-sm-3 text-left">
         <div className="fdb-box p-0">
-          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/1.jpg" />
+          <img alt="person name" className="img-fluid rounded-0" src="./imgs/people/1.jpg" />
 
           <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>
@@ -28,7 +26,7 @@ class Teams01 extends Component {
 
       <div className="col-sm-3 text-left">
         <div className="fdb-box p-0">
-          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/2.jpg" />
+          <img alt="person name" className="img-fluid rounded-0" src="./imgs/people/2.jpg" />
 
           <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>
@@ -38,7 +36,7 @@ class Teams01 extends Component {
       </div>
       <div className="col-sm-3 text-left">
         <div className="fdb-box p-0">
-          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/3.jpg" />
+          <img alt="person name" className="img-fluid rounded-0" src="./imgs/people/3.jpg" />
 
           <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>
@@ -48,7 +46,7 @@ class Teams01 extends Component {
       </div>
       <div className="col-sm-3 text-left">
         <div className="fdb-box p-0">
-          <img alt="image" className="img-fluid rounded-0" src="./imgs/people/6.jpg" />
+          <img alt="person name" className="img-fluid rounded-0" src="./imgs/people/6.jpg" />
 
           <div className="content p-3">
             <h3><strong>Sara Doe</strong></h3>
@@ -58,9 +56,7 @@ class Teams01 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Teams01

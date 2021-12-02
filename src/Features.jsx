@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Features01 from './features/Features01.jsx';
 import Features02 from './features/Features02.jsx';
@@ -34,9 +34,8 @@ import Features31 from './features/Features31.jsx';
 import Features32 from './features/Features32.jsx';
 import Features33 from './features/Features33.jsx';
 
-class Features extends Component {
-  render() {
-    return (
+function Features(props) {
+  return (
       <div>
         <Features01></Features01>
         <Features02></Features02>
@@ -73,7 +72,6 @@ class Features extends Component {
         <Features33></Features33>
       </div>
     )
-  }
 }
 
 export default Features

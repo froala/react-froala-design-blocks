@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class CallToAction14 extends Component {
-  render() {
-    return <section className="fdb-block py-0">
+function CallToAction14(props) {
+  return (<section className="fdb-block py-0">
   <div className="container bg-r py-5 my-5" style={{backgroundImage: 'url(imgs/shapes/1.svg)'}}>
     <div className="row py-5">
       <div className="col-12 col-sm-10 col-md-8 col-lg-6 text-left">
@@ -17,9 +15,7 @@ class CallToAction14 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default CallToAction14

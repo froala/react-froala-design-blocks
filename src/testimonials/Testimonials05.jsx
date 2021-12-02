@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Testimonials05 extends Component {
-  render() {
-    return <section className="fdb-block py-5">
+function Testimonials05(props) {
+  return (<section className="fdb-block py-5">
   <div className="container py-5" style={{backgroundImage: 'url(imgs/shapes/2.svg)'}}>
     <div className="row align-items-center justify-content-center">
       <div className="col-lg-9 col-xl-6">
         <div className="fdb-box">
           <div className="row">
             <div className="col-8 col-sm-6 col-md-4 col-xl-3 ml-auto mr-auto">
-              <img alt="image" className="img-fluid rounded" src="./imgs/people/6.jpg" />
+              <img alt="person name" className="img-fluid rounded" src="./imgs/people/6.jpg" />
             </div>
 
             <div className="col-md-8 mt-4 mt-md-0">
@@ -29,7 +27,7 @@ class Testimonials05 extends Component {
         <div className="fdb-box">
           <div className="row">
             <div className="col-8 col-sm-6 col-md-4 col-xl-3 ml-auto mr-auto">
-              <img alt="image" className="img-fluid rounded" src="./imgs/people/8.jpg" />
+              <img alt="person name" className="img-fluid rounded" src="./imgs/people/8.jpg" />
             </div>
 
             <div className="col-md-8 mt-4 mt-md-0">
@@ -45,9 +43,7 @@ class Testimonials05 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Testimonials05

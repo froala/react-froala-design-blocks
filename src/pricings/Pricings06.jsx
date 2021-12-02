@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Pricings06 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Pricings06(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row text-center">
       <div className="col">
@@ -20,7 +18,7 @@ class Pricings06 extends Component {
           </div>
 
           <div className="bg-gray p-5 text-center">
-            <p><img alt="image" height="40" src="./imgs/icons/layers.svg" /></p>
+            <p><img alt="layers" height="40" src="./imgs/icons/layers.svg" /></p>
             <p className="h4"><strong>For small companies</strong></p>
             <p><br/></p>
             <p>10 hours of support</p>
@@ -40,7 +38,7 @@ class Pricings06 extends Component {
           </div>
 
           <div className="bg-gray p-5 text-center">
-            <p><img alt="image" height="40" src="./imgs/icons/monitor.svg" /></p>
+            <p><img alt="monitor" height="40" src="./imgs/icons/monitor.svg" /></p>
             <p className="h4"><strong>For medium companies</strong></p>
             <p><br/></p>
             <p>10 hours of support</p>
@@ -60,7 +58,7 @@ class Pricings06 extends Component {
           </div>
 
           <div className="bg-gray p-5 text-center">
-            <p><img alt="image" height="40" src="./imgs/icons/package.svg" /></p>
+            <p><img alt="package" height="40" src="./imgs/icons/package.svg" /></p>
             <p className="h4"><strong>For large companies</strong></p>
             <p><br/></p>
             <p>10 hours of support</p>
@@ -73,9 +71,7 @@ class Pricings06 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Pricings06

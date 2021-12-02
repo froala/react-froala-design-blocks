@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Footers12 extends Component {
-  render() {
-    return <footer className="fdb-block footer-large">
+function Footers12(props) {
+  return (<footer className={`fdb-block footer-large ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row text-center">
       <div className="col">
@@ -17,18 +15,16 @@ class Footers12 extends Component {
     <div className="row mt-4">
       <div className="col text-center">
         <p className="lead">
-          <a href="https://www.froala.com" className="mx-2"><i className="fab fa-twitter" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2"><i className="fab fa-facebook" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2"><i className="fab fa-instagram" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2"><i className="fab fa-pinterest" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2"><i className="fab fa-google" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>twitter</span><i className="fab fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>facebook</span><i className="fab fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>instagram</span><i className="fab fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>pinterest</span><i className="fab fa-pinterest" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>google</span><i className="fab fa-google" aria-hidden="true"></i></a>
         </p>
       </div>
     </div>
   </div>
-</footer>
-
-  }
+</footer>)
 }
 
 export default Footers12

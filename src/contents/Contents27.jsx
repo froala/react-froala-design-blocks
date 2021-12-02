@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contents27 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contents27(props) {
+  return (<section className="fdb-block">
   <div className="col-fill-right" style={{backgroundImage: 'url(imgs/people/6.jpg)'}}>
   </div>
 
@@ -16,18 +14,16 @@ class Contents27 extends Component {
 
         <p>Follow us on</p>
         <p>
-          <a href="https://www.froala.com" className="mx-2 text-secondary"><i className="fab fa-twitter" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2 text-secondary"><i className="fab fa-facebook" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2 text-secondary"><i className="fab fa-instagram" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2 text-secondary"><i className="fab fa-pinterest" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2 text-secondary"><i className="fab fa-google" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>twitter</span><i className="fab fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>facebook</span><i className="fab fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>instagram</span><i className="fab fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>pinterest</span><i className="fab fa-pinterest" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>google</span><i className="fab fa-google" aria-hidden="true"></i></a>
         </p>
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents27

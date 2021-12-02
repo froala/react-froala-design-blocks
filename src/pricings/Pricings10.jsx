@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Pricings10 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Pricings10(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row text-center">
       <div className="col">
@@ -248,9 +246,7 @@ class Pricings10 extends Component {
       </tbody>
     </table>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Pricings10

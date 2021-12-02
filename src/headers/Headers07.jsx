@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Headers07 extends Component {
-  render() {
-    return <header>
+function Headers07(props) {
+  return (<header className={`${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <nav className="navbar navbar-expand-md no-gutters">
       <div className="col-2 text-left">
         <a href="https://www.froala.com">
-          <img src="./imgs/logo.png" height="30" alt="image" />
+          <img src="./imgs/logo.png" height="30" alt="logo" />
         </a>
       </div>
 
@@ -49,9 +47,7 @@ class Headers07 extends Component {
       </ul>
     </nav>
   </div>
-</header>
-
-  }
+</header>)
 }
 
 export default Headers07

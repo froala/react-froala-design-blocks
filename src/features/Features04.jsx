@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Features04 extends Component {
-  render() {
-    return <section className="fdb-block bg-dark" style={{backgroundImage: 'url(imgs/hero/purple.svg)'}}>
+function Features04(props) {
+  return (<section className="fdb-block bg-dark" style={{backgroundImage: 'url(imgs/hero/purple.svg)'}}>
   <div className="container">
     <div className="row">
       <div className="col text-center">
@@ -37,9 +35,7 @@ class Features04 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Features04

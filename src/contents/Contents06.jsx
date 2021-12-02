@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contents06 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contents06(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row">
       <div className="col text-left">
@@ -17,9 +15,7 @@ class Contents06 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents06

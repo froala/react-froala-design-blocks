@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class CallToAction04 extends Component {
-  render() {
-    return <section className="fdb-block">
+function CallToAction04(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-12 col-md-8 col-lg-6 text-center">
@@ -24,18 +22,16 @@ class CallToAction04 extends Component {
     </div>
     <div className="row">
       <div className="col-12 text-center">
-        <img alt="image" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/adobe.svg" />
-        <img alt="image" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/amazon.svg" />
-        <img alt="image" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/ebay.svg" />
-        <img alt="image" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/samsung.svg" />
-        <img alt="image" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/orange.svg" />
-        <img alt="image" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/salesforce.svg" />
+        <img alt="adobe" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/adobe.svg" />
+        <img alt="amazon" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/amazon.svg" />
+        <img alt="ebay" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/ebay.svg" />
+        <img alt="samsung" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/samsung.svg" />
+        <img alt="orange" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/orange.svg" />
+        <img alt="salesforce" height="30" className="ml-3 mr-3 mb-2 mt-2" src="./imgs/customers/salesforce.svg" />
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default CallToAction04

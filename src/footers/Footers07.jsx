@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
+import BlockCopyRight from "../components/blockcopyright.jsx";
+import BlockSocial from "../components/blocksocial.jsx";
 
-class Footers07 extends Component {
-  render() {
-    return <footer className="fdb-block footer-small">
+function Footers07(props) {
+  return (<footer className={`fdb-block footer-small ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row text-center align-items-center">
       <div className="col-12 col-lg-2 text-lg-left">
-        <img alt="image" src="./imgs/logo.png" height="40" />
+        <img alt="logo" src="./imgs/logo.png" height="40" />
       </div>
 
       <div className="col mt-4 mt-lg-0 text-center">
@@ -29,25 +29,13 @@ class Footers07 extends Component {
           </li>
         </ul>
       </div>
-
-      <div className="col-12 col-lg-2 mt-4 mt-lg-0 text-lg-right">
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-twitter" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-facebook" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-pinterest" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-google" aria-hidden="true"></i></a>
-      </div>
     </div>
 
-    <div className="row mt-4">
-      <div className="col text-center">
-        © 2018 Froala. All Rights Reserved
-      </div>
-    </div>
+    <BlockSocial />
+
+    <BlockCopyRight />
   </div>
-</footer>
-
-  }
+</footer>)
 }
 
 export default Footers07

@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class CallToAction20 extends Component {
-  render() {
-    return <section className="fdb-block">
+function CallToAction20(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row align-items-center text-left">
       <div className="col-12 col-md-8">
@@ -17,13 +15,11 @@ class CallToAction20 extends Component {
 
     <div className="row pt-5">
       <div className="col-6 offset-3">
-        <img alt="image" className="img-fluid" src="./imgs/draws/rocket.svg" />
+        <img alt="rocket" className="img-fluid" src="./imgs/draws/rocket.svg" />
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default CallToAction20

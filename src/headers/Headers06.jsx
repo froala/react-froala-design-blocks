@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Headers06 extends Component {
-  render() {
-    return <header>
+function Headers06(props) {
+  return (<header className={`${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <nav className="navbar navbar-expand-md">
       <a className="navbar-brand" href="https://www.froala.com">
-        <img src="./imgs/logo.png" height="30" alt="image" />
+        <img src="./imgs/logo.png" height="30" alt="logo" />
       </a>
 
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,9 +35,7 @@ class Headers06 extends Component {
       </div>
     </nav>
   </div>
-</header>
-
-  }
+</header>)
 }
 
 export default Headers06

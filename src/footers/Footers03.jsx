@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
+import CopyRight from "../components/copyright.jsx";
 
-class Footers03 extends Component {
-  render() {
-    return <footer className="fdb-block footer-small">
+function Footers03(props) {
+  return (<footer className={`fdb-block footer-small ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row text-center align-items-center">
       <div className="col-12 col-md-8">
         <ul className="nav justify-content-center justify-content-md-start align-items-center">
           <li className="nav-item">
             <a className="nav-link active" href="https://www.froala.com">
-                <img alt="image" src="./imgs/logo.png" height="40" />
+                <img alt="logo" src="./imgs/logo.png" height="40" />
               </a>
           </li>
           <li className="w-100 d-block d-sm-none"></li>
@@ -27,13 +26,11 @@ class Footers03 extends Component {
       </div>
 
       <div className="col-12 col-md-4 mt-4 mt-md-0 text-md-right">
-        © 2013-2018 Froala
+        <CopyRight />
       </div>
     </div>
   </div>
-</footer>
-
-  }
+</footer>)
 }
 
 export default Footers03

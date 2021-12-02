@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contents12 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contents12(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row align-items-center">
       <div className="col-12 col-md-6 col-lg-5">
@@ -11,13 +9,11 @@ class Contents12 extends Component {
         <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
       </div>
       <div className="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
-        <img alt="image" className="img-fluid" src="./imgs/shapes/2.svg" />
+        <img alt="shape" className="img-fluid" src="./imgs/shapes/2.svg" />
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents12

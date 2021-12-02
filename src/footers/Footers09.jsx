@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Footers09 extends Component {
-  render() {
-    return <footer className="fdb-block footer-large">
+function Footers09(props) {
+  return (<footer className={`fdb-block footer-large ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row align-items-top text-center">
       <div className="col-12 col-sm-6 col-md-4 col-lg-3 text-sm-left">
@@ -35,11 +33,11 @@ class Footers09 extends Component {
       <div className="col-12 col-lg-2 ml-auto text-lg-left mt-4 mt-lg-0">
         <h3><strong>Follow Us</strong></h3>
         <p className="lead">
-          <a href="https://www.froala.com" className="mx-2"><i className="fab fa-twitter" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2"><i className="fab fa-facebook" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2"><i className="fab fa-instagram" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2"><i className="fab fa-pinterest" aria-hidden="true"></i></a>
-          <a href="https://www.froala.com" className="mx-2"><i className="fab fa-google" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>twitter</span><i className="fab fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>facebook</span><i className="fab fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>instagram</span><i className="fab fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>pinterest</span><i className="fab fa-pinterest" aria-hidden="true"></i></a>
+          <a href="https://www.froala.com" className="mx-2"><span style={{"display":"none"}}>google</span><i className="fab fa-google" aria-hidden="true"></i></a>
         </p>
       </div>
     </div>
@@ -50,9 +48,7 @@ class Footers09 extends Component {
       </div>
     </div>
   </div>
-</footer>
-
-  }
+</footer>)
 }
 
 export default Footers09

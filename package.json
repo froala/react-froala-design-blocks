@@ -11,7 +11,8 @@
     "html templates",
     "website design",
     "html5",
-    "trending design"
+    "trending design",
+    "react"
   ],
   "homepage": "https://www.froala.com/design-blocks",
   "license": "https://github.com/froala/react-froala-design-blocks/blob/master/LICENSE",
@@ -25,13 +26,13 @@
     }
   ],
   "dependencies": {
-    "bootstrap": "^4.1.3",
+    "bootstrap": "^5.1.3",
     "capitalize": "^2.0.0",
     "froala-design-blocks": "~2.0.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-iframe": "^1.3.3",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "2.1.1",
     "replace-in-file": "^3.4.2"
   },

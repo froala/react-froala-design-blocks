@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contents22 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contents22(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-12 col-lg-8 col-xl-6 text-center">
-        <img alt="image" width="200" src="./imgs/logo.png" />
+        <img alt="logo" width="200" src="./imgs/logo.png" />
         <h1>Froala Design Blocks</h1>
         <p className="lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies</p>
 
@@ -16,9 +14,7 @@ class Contents22 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents22

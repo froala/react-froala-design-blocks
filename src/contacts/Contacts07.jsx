@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Iframe from 'react-iframe';
 
-class Contacts07 extends Component {
-  render() {
-    return <section className="fdb-block py-0">
-  <div className="container py-5" style={{backgroundImage: 'url(imgs/shapes/6.svg)'}}>
+function Contacts07(props) {
+  return (<section className={`fdb-block py-0 ${props.dark ? "bg-dark" : null}`}>
+  <div className="container py-5" style={{backgroundImage: `url(imgs/shapes/6${props.dark ? "dark" : ""}.svg)`}}>
     <div className="row text-center justify-content-center">
       <div className="col-12 col-md-8 col-lg-7">
         <h1>Contact Us</h1>
@@ -49,11 +48,9 @@ class Contacts07 extends Component {
 
   <div className="container-fluid p-0">
     <Iframe className="map" url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656"
-      width="100%" height="300" frameBorder="0" style="border:0" allowFullScreen={true} position="relative"/>
+      width="100%" height="300" frameBorder="0" style={{"border":"0"}} allowFullScreen={true} position="relative"/>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contacts07

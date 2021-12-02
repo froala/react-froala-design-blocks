@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class CallToAction09 extends Component {
-  render() {
-    return <section className="fdb-block">
+function CallToAction09(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row align-items-center justify-content-center">
       <div className="col-auto">
@@ -14,9 +12,7 @@ class CallToAction09 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default CallToAction09

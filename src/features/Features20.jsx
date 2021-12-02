@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Features20 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Features20(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-12 text-left">
         <h1>Froala Design Blocks</h1>
         <p className="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 
-        <img alt="image" className="img-fluid mt-5" src="./imgs/draws/android.svg" />
+        <img alt="android" className="img-fluid mt-5" src="./imgs/draws/android.svg" />
       </div>
     </div>
 
@@ -34,9 +32,7 @@ class Features20 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Features20

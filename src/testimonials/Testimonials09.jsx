@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Testimonials09 extends Component {
-  render() {
-    return <section className="fdb-block" style={{backgroundImage: 'url(imgs/shapes/9.svg)'}}>
+function Testimonials09(props) {
+  return (<section className="fdb-block" style={{backgroundImage: 'url(imgs/shapes/9.svg)'}}>
   <div className="container">
     <div className="row text-center justify-content-center">
       <div className="col-md-10 col-lg-8 col-xl-7">
@@ -17,7 +15,7 @@ class Testimonials09 extends Component {
         <div className="fdb-box">
           <div className="row no-gutters align-items-center">
             <div className="col-3">
-              <img alt="image" className="img-fluid rounded" src="./imgs/people/1.jpg" />
+              <img alt="person name" className="img-fluid rounded" src="./imgs/people/1.jpg" />
             </div>
             <div className="col-8 ml-auto">
               <p>
@@ -40,7 +38,7 @@ class Testimonials09 extends Component {
         <div className="fdb-box">
           <div className="row no-gutters align-items-center">
             <div className="col-3">
-              <img alt="image" className="img-fluid rounded" src="./imgs/people/3.jpg" />
+              <img alt="person name" className="img-fluid rounded" src="./imgs/people/3.jpg" />
             </div>
             <div className="col-8 ml-auto">
               <p>
@@ -63,7 +61,7 @@ class Testimonials09 extends Component {
         <div className="fdb-box">
           <div className="row no-gutters align-items-center">
             <div className="col-3">
-              <img alt="image" className="img-fluid rounded" src="./imgs/people/2.jpg" />
+              <img alt="person name" className="img-fluid rounded" src="./imgs/people/2.jpg" />
             </div>
             <div className="col-8 ml-auto">
               <p>
@@ -83,9 +81,7 @@ class Testimonials09 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Testimonials09

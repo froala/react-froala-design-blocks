@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
+import Social from "../components/social.jsx"
 
-class Footers05 extends Component {
-  render() {
-    return <footer className="fdb-block footer-small">
+function Footers05(props) {
+  return (<footer className={`fdb-block footer-small ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row align-items-center">
       <div className="col-12 col-md-6">
@@ -23,18 +22,10 @@ class Footers05 extends Component {
         </ul>
       </div>
 
-      <div className="col-12 col-md-6 mt-4 mt-md-0 text-center text-md-right">
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-twitter" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-facebook" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-pinterest" aria-hidden="true"></i></a>
-        <a href="https://www.froala.com" className="mx-2"><i className="fab fa-google" aria-hidden="true"></i></a>
-      </div>
+      <Social />
     </div>
   </div>
-</footer>
-
-  }
+</footer>)
 }
 
 export default Footers05

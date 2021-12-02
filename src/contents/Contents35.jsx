@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contents35 extends Component {
-  render() {
-    return <section className="fdb-block">
-  <div className="container">
+function Contents35(props) {
+  return (<section className={`fdb-block py-0 ${props.dark ? "bg-dark" : null}`}>
+  <div className="container py-5">
     <div className="row text-left align-items-center">
       <div className="col-10 col-sm-6 m-auto m-lg-0 col-lg-4">
-        <img alt="image" className="img-fluid" src="./imgs/draws/opened.svg" />
+        <img alt="open" className="img-fluid" src="./imgs/draws/opened.svg" />
       </div>
 
       <div className="col-12 col-lg-7 offset-lg-1 pt-4 pt-lg-0">
@@ -28,9 +26,7 @@ class Contents35 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents35

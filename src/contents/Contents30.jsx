@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contents30 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contents30(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row align-items-center">
       <div className="col-6 col-lg-3">
-        <img alt="image" className="img-fluid" src="./imgs/photos/fireworks-1.jpg" />
+        <img alt="fireworks" className="img-fluid" src="./imgs/photos/fireworks-1.jpg" />
       </div>
 
       <div className="col-6 col-lg-3">
-        <img alt="image" className="img-fluid" src="./imgs/photos/fireworks-2.jpg" />
+        <img alt="fireworks 2" className="img-fluid" src="./imgs/photos/fireworks-2.jpg" />
       </div>
 
       <div className="col-12 col-lg-6 pt-3">
@@ -20,9 +18,7 @@ class Contents30 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents30

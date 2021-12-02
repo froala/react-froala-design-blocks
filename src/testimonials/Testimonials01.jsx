@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Testimonials01 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Testimonials01(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row align-items-center justify-content-center">
       <div className="col-12 col-md-10 col-lg-8">
@@ -14,13 +12,11 @@ class Testimonials01 extends Component {
         <p className="lead"><strong>Person Name</strong> <em className="ml-4">Co-founder at Company</em></p>
       </div>
       <div className="col-8 col-sm-6 col-md-2 col-lg-3 col-xl-2 mt-4 mt-md-0 ml-auto mr-auto mr-md-0">
-        <img alt="image" className="img-fluid rounded-circle" src="./imgs/people/1.jpg" />
+        <img alt="person name" className="img-fluid rounded-circle" src="./imgs/people/1.jpg" />
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Testimonials01

@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contacts08 extends Component {
-  render() {
-    return <section className="fdb-block pt-0" style={{backgroundImage: 'url(./imgs/shapes/8.svg)'}}>
-  <div className="bg-gray">
+function Contacts08(props) {
+  return (<section className={`fdb-block pt-0 ${props.dark ? "bg-dark" : null}`} style={{backgroundImage: `url(./imgs/shapes/8${props.dark ? "dark" : ""}.svg)`}}>
+  <div className={`${!props.dark ? "bg-gray" : null}`}>
     <div className="container">
       <div className="row-100"></div>
       <div className="row text-left">
@@ -114,9 +112,7 @@ class Contacts08 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contacts08

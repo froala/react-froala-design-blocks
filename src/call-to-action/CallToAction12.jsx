@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class CallToAction12 extends Component {
-  render() {
-    return <section className="fdb-block">
+function CallToAction12(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row">
       <div className="col-12 text-center">
@@ -22,13 +20,11 @@ class CallToAction12 extends Component {
       </div>
 
       <div className="col-8 col-md-4 m-auto m-md-0 ml-md-auto pt-5">
-        <img alt="image" className="img-fluid" src="./imgs/draws/git.svg" />
+        <img alt="git" className="img-fluid" src="./imgs/draws/git.svg" />
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default CallToAction12

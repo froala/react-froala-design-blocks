@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Teams08 extends Component {
-  render() {
-    return <section className="fdb-block team-8">
+function Teams08(props) {
+  return (<section className="fdb-block team-8">
   <div className="container">
     <div className="row text-center justify-content-center">
       <div className="col-8">
@@ -18,7 +16,7 @@ class Teams08 extends Component {
       <div className="col-sm-6">
         <div className="row align-items-center">
           <div className="col-4">
-            <img alt="image" className="img-fluid rounded" src="./imgs/people/8.jpg" />
+            <img alt="person name" className="img-fluid rounded" src="./imgs/people/8.jpg" />
           </div>
 
           <div className="col-8">
@@ -33,7 +31,7 @@ class Teams08 extends Component {
       <div className="col-sm-6">
         <div className="row align-items-center">
           <div className="col-4">
-            <img alt="image" className="img-fluid rounded" src="./imgs/people/7.jpg" />
+            <img alt="person name" className="img-fluid rounded" src="./imgs/people/7.jpg" />
           </div>
 
           <div className="col-8">
@@ -52,7 +50,7 @@ class Teams08 extends Component {
       <div className="col-sm-6">
         <div className="row align-items-center">
           <div className="col-4">
-            <img alt="image" className="img-fluid rounded" src="./imgs/people/9.jpg" />
+            <img alt="person name" className="img-fluid rounded" src="./imgs/people/9.jpg" />
           </div>
 
           <div className="col-8">
@@ -67,7 +65,7 @@ class Teams08 extends Component {
       <div className="col-sm-6">
         <div className="row align-items-center">
           <div className="col-4">
-            <img alt="image" className="img-fluid rounded" src="./imgs/people/4.jpg" />
+            <img alt="person name" className="img-fluid rounded" src="./imgs/people/4.jpg" />
           </div>
 
           <div className="col-8">
@@ -80,9 +78,7 @@ class Teams08 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Teams08

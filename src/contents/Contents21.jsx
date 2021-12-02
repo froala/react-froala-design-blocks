@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contents21 extends Component {
-  render() {
-    return <section className="fdb-block py-0">
+function Contents21(props) {
+  return (<section className="fdb-block py-0">
   <div className="container py-5 my-5 bg-r" style={{backgroundImage: 'url(imgs/shapes/9.svg)'}}>
     <div className="row text-left py-5">
       <div className="col-12 col-md-8 col-lg-6 ml-sm-auto">
@@ -20,9 +18,7 @@ class Contents21 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents21

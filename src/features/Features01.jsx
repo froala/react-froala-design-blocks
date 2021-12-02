@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Features01 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Features01(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row text-center justify-content-sm-center no-gutters">
       <div className="col-12 col-sm-8 col-md-3 m-auto">
@@ -39,9 +37,7 @@ class Features01 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Features01

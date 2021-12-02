@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Contents11 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Contents11(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row">
       <div className="col text-center">
@@ -13,22 +11,20 @@ class Contents11 extends Component {
 
     <div className="row pt-5 justify-content-center align-items-center">
       <div className="col-6 col-md-2">
-        <img alt="image" className="img-fluid" src="./imgs/shapes/1.svg" />
+        <img alt="shape" className="img-fluid" src="./imgs/shapes/1.svg" />
       </div>
       <div className="col-6 col-md-2 offset-md-1">
-        <img alt="image" className="img-fluid" src="./imgs/shapes/5.svg" />
+        <img alt="shape" className="img-fluid" src="./imgs/shapes/5.svg" />
       </div>
       <div className="col-6 col-md-2 mt-4 mt-md-0 offset-md-1">
-        <img alt="image" className="img-fluid" src="./imgs/shapes/7.svg" />
+        <img alt="shape" className="img-fluid" src="./imgs/shapes/7.svg" />
       </div>
       <div className="col-6 col-md-2 mt-4 mt-md-0 offset-md-1">
-        <img alt="image" className="img-fluid" src="./imgs/shapes/4.svg" />
+        <img alt="shape" className="img-fluid" src="./imgs/shapes/4.svg" />
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Contents11

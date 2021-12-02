@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Features17 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Features17(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col text-left">
@@ -13,7 +11,7 @@ class Features17 extends Component {
     </div>
     <div className="row justify-content-center mb-5">
       <div className="col-10">
-        <img alt="image" className="img-fluid mt-5" src="./imgs/draws/android.svg" />
+        <img alt="android" className="img-fluid mt-5" src="./imgs/draws/android.svg" />
       </div>
     </div>
 
@@ -21,7 +19,7 @@ class Features17 extends Component {
       <div className="col-12 col-md-4">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/icons/github.svg" />
+            <img alt="github" className="img-fluid" src="./imgs/icons/github.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature One</strong></h3>
@@ -33,7 +31,7 @@ class Features17 extends Component {
       <div className="col-12 col-md-4 pt-4 pt-md-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/icons/layers.svg" />
+            <img alt="layers" className="img-fluid" src="./imgs/icons/layers.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Two</strong></h3>
@@ -45,7 +43,7 @@ class Features17 extends Component {
       <div className="col-12 col-md-4 pt-4 pt-md-0">
         <div className="row">
           <div className="col-3">
-            <img alt="image" className="img-fluid" src="./imgs/icons/life-buoy.svg" />
+            <img alt="bouy" className="img-fluid" src="./imgs/icons/life-buoy.svg" />
           </div>
           <div className="col-9">
             <h3><strong>Feature Three</strong></h3>
@@ -55,9 +53,7 @@ class Features17 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Features17

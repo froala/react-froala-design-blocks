@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
-import Iframe from 'react-iframe';
+import React from 'react';
 
-class Features16 extends Component {
-  render() {
-    return <section className="fdb-block">
+function Features16(props) {
+  return (<section className="fdb-block">
   <div className="container">
     <div className="row justify-content-center pb-xl-5">
       <div className="col-12 col-md-8 text-center">
@@ -14,7 +12,7 @@ class Features16 extends Component {
 
     <div className="row text-right align-items-center-lg align-items-end pt-5">
       <div className="col-7 col-sm-4 m-auto mb-md-0 mt-md-0 m-lg-auto">
-        <img alt="image" className="img-fluid" src="./imgs/draws/simple-iphone.svg" />
+        <img alt="iphone" className="img-fluid" src="./imgs/draws/simple-iphone.svg" />
       </div>
 
       <div className="col-12 col-md-7 col-lg-6 col-xl-5 m-auto text-left pt-5 pt-md-0">
@@ -29,9 +27,7 @@ class Features16 extends Component {
       </div>
     </div>
   </div>
-</section>
-
-  }
+</section>)
 }
 
 export default Features16
