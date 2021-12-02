@@ -1,8 +1,8 @@
 import React from 'react';
 
 function Contents35(props) {
-  return (<section className="fdb-block">
-  <div className="container">
+  return (<section className={`fdb-block py-0 ${props.dark ? "bg-dark" : null}`}>
+  <div className="container py-5">
     <div className="row text-left align-items-center">
       <div className="col-10 col-sm-6 m-auto m-lg-0 col-lg-4">
         <img alt="open" className="img-fluid" src="./imgs/draws/opened.svg" />

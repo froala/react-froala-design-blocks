@@ -35,6 +35,7 @@ import Contents32 from './contents/Contents32.jsx';
 import Contents33 from './contents/Contents33.jsx';
 import Contents34 from './contents/Contents34.jsx';
 import Contents35 from './contents/Contents35.jsx';
+import Contents36 from './contents/Contents36.jsx';
 
 function Contents(props) {
 
@@ -77,6 +78,7 @@ function Contents(props) {
         <Contents33 dark={dark} />
         <Contents34 dark={dark} />
         <Contents35 dark={dark} />
+        <Contents36 dark={dark} />
       </div>
     )
 }

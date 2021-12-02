@@ -21,3 +21,7 @@
 #navigator + section {
   padding: 250px 0;
 }
+
+.bg-dark .fdb-box {
+  background: gray;
+}
