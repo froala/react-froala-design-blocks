@@ -21,7 +21,7 @@ function Carousel01(props) {
       }
     }
 
-    return (<section className="fdb-block">
+    return (<section className={`fdb-block ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
       <div className="carousel-inner">

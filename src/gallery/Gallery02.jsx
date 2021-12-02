@@ -13,7 +13,7 @@ function Gallery01(props) {
     setModalVisible(false)
   }
 
-  return (<section className="fdb-block">
+  return (<section className={`fdb-block ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row">
       <div className="col-md-4">

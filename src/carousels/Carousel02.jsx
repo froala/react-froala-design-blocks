@@ -26,7 +26,7 @@ function Carousel02(props) {
       setSlideNumber(number);
     }
 
-    return (<section className="fdb-block">
+    return (<section className={`fdb-block ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div id="carouselExampleControls" className="carousel slide carousel-fade" data-ride="carousel">
       <ol className="carousel-indicators">
