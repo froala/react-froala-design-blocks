@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Footers12(props) {
-  return (<footer className="fdb-block footer-large">
+  return (<footer className={`fdb-block footer-large ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row text-center">
       <div className="col">

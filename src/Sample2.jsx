@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from './headers/Headers02.jsx';
-import Footer from './footers/Footers02.jsx';
+import Footer from './footers/Footers05.jsx';
 import CallToAction from './call-to-action/CallToAction02.jsx';
 import Contents from './contents/Contents02.jsx';
 import Contacts from './contacts/Contacts02.jsx';

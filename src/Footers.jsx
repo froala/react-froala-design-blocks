@@ -14,20 +14,21 @@ import Footers11 from './footers/Footers11.jsx';
 import Footers12 from './footers/Footers12.jsx';
 
 function Footers(props) {
+  let dark=false;
   return (
       <div>
-        <Footers01></Footers01>
-        <Footers02></Footers02>
-        <Footers03></Footers03>
-        <Footers04></Footers04>
-        <Footers05></Footers05>
-        <Footers06></Footers06>
-        <Footers07></Footers07>
-        <Footers08></Footers08>
-        <Footers09></Footers09>
-        <Footers10></Footers10>
-        <Footers11></Footers11>
-        <Footers12></Footers12>
+        <Footers01 dark={dark} />
+        <Footers02 dark={dark} />
+        <Footers03 dark={dark} />
+        <Footers04 dark={dark} />
+        <Footers05 dark={dark} />
+        <Footers06 dark={dark} />
+        <Footers07 dark={dark} />
+        <Footers08 dark={dark} />
+        <Footers09 dark={dark} />
+        <Footers10 dark={dark} />
+        <Footers11 dark={dark} />
+        <Footers12 dark={dark} />
       </div>
     )
 }

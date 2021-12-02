@@ -1,13 +1,12 @@
 import React from 'react';
+import BlockHeader from "../components/blockheader.jsx"
 
 function Contents01(props) {
   return (<section className="fdb-block">
   <div className="container">
-    <div className="row justify-content-center">
-      <div className="col col-md-8 text-center">
-        <h1>Froala Design Blocks</h1>
-      </div>
-    </div>
+    <BlockHeader header="Froala Design Blocks" />
+    <BlockHeader header="Extended" />
+    <BlockHeader header="by cairnswm" />
   </div>
 </section>)
 }

@@ -1,18 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+import CopyRight from "../components/blockcopyright.jsx"
 
-class Footers01 extends Component {
-  render() {
-    return <footer className="fdb-block footer-small">
+function Footers01(props) {
+  return (<footer className={`fdb-block footer-small ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
-    <div className="row text-center">
-      <div className="col">
-        <p>© 2018 Froala. All Rights Reserved</p>
-      </div>
-    </div>
+    <CopyRight />
   </div>
-</footer>
-
-  }
+</footer>)
 }
 
 export default Footers01

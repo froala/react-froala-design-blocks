@@ -19,7 +19,7 @@ class Headers extends Component {
         <Features />
         <Contacts />
         <Forms />
-        <Footer />
+        <Footer dark />
       </div>
     )
   }

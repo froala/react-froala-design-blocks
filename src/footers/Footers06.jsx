@@ -1,7 +1,8 @@
 import React from 'react';
+import CopyRight from "../components/copyright.jsx";
 
 function Footers06(props) {
-  return (<footer className="fdb-block footer-small bg-dark">
+  return (<footer className={`fdb-block footer-small  ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row text-center align-items-center">
       <div className="col">
@@ -23,7 +24,7 @@ function Footers06(props) {
           </li>
         </ul>
 
-        <p className="h5 mt-5">© 2013-2018 Froala</p>
+        <CopyRight />
       </div>
     </div>
   </div>
