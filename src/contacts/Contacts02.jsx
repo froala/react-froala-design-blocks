@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Contacts02(props) {
-  return (<section className="fdb-block bg-dark" style={{backgroundImage: 'url(imgs/hero/blue.svg)'}}>
+  return (<section className={`fdb-block ${props.dark ? "bg-dark" : null}`} style={{backgroundImage: 'url(imgs/hero/blue.svg)'}}>
   <div className="container">
     <div className="row text-center justify-content-center">
       <div className="col-12 col-md-8 col-lg-7">

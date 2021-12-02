@@ -2,7 +2,7 @@ import React from 'react';
 import Iframe from 'react-iframe';
 
 function Contacts03(props) {
-  return (<section className="fdb-block">
+  return (<section className={`fdb-block ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row text-center justify-content-center">
       <div className="col-12 col-md-8 col-lg-7">

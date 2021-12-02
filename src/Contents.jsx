@@ -37,43 +37,46 @@ import Contents34 from './contents/Contents34.jsx';
 import Contents35 from './contents/Contents35.jsx';
 
 function Contents(props) {
+
+  let dark=true;
+
   return (
       <div>
-        <Contents01></Contents01>
-        <Contents02></Contents02>
-        <Contents03></Contents03>
-        <Contents04></Contents04>
-        <Contents05></Contents05>
-        <Contents06></Contents06>
-        <Contents07></Contents07>
-        <Contents08></Contents08>
-        <Contents09></Contents09>
-        <Contents10></Contents10>
-        <Contents11></Contents11>
-        <Contents12></Contents12>
-        <Contents13></Contents13>
-        <Contents14></Contents14>
-        <Contents15></Contents15>
-        <Contents16></Contents16>
-        <Contents17></Contents17>
-        <Contents18></Contents18>
-        <Contents19></Contents19>
-        <Contents20></Contents20>
-        <Contents21></Contents21>
-        <Contents22></Contents22>
-        <Contents23></Contents23>
-        <Contents24></Contents24>
-        <Contents25></Contents25>
-        <Contents26></Contents26>
-        <Contents27></Contents27>
-        <Contents28></Contents28>
-        <Contents29></Contents29>
-        <Contents30></Contents30>
-        <Contents31></Contents31>
-        <Contents32></Contents32>
-        <Contents33></Contents33>
-        <Contents34></Contents34>
-        <Contents35></Contents35>
+        <Contents01 dark={dark} />
+        <Contents02 dark={dark} />
+        <Contents03 dark={dark} />
+        <Contents04 dark={dark} />
+        <Contents05 dark={dark} />
+        <Contents06 dark={dark} />
+        <Contents07 dark={dark} />
+        <Contents08 dark={dark} />
+        <Contents09 dark={dark} />
+        <Contents10 dark={dark} />
+        <Contents11 dark={dark} />
+        <Contents12 dark={dark} />
+        <Contents13 dark={dark} />
+        <Contents14 dark={dark} />
+        <Contents15 dark={dark} />
+        <Contents16 dark={dark} />
+        <Contents17 dark={dark} />
+        <Contents18 dark={dark} />
+        <Contents19 dark={dark} />
+        <Contents20 dark={dark} />
+        <Contents21 dark={dark} />
+        <Contents22 dark={dark} />
+        <Contents23 dark={dark} />
+        <Contents24 dark={dark} />
+        <Contents25 dark={dark} />
+        <Contents26 dark={dark} />
+        <Contents27 dark={dark} />
+        <Contents28 dark={dark} />
+        <Contents29 dark={dark} />
+        <Contents30 dark={dark} />
+        <Contents31 dark={dark} />
+        <Contents32 dark={dark} />
+        <Contents33 dark={dark} />
+        <Contents34 dark={dark} />
+        <Contents35 dark={dark} />
       </div>
     )
 }

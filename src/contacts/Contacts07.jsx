@@ -2,8 +2,8 @@ import React from 'react';
 import Iframe from 'react-iframe';
 
 function Contacts07(props) {
-  return (<section className="fdb-block py-0">
-  <div className="container py-5" style={{backgroundImage: 'url(imgs/shapes/6.svg)'}}>
+  return (<section className={`fdb-block py-0 ${props.dark ? "bg-dark" : null}`}>
+  <div className="container py-5" style={{backgroundImage: `url(imgs/shapes/6${props.dark ? "dark" : ""}.svg)`}}>
     <div className="row text-center justify-content-center">
       <div className="col-12 col-md-8 col-lg-7">
         <h1>Contact Us</h1>

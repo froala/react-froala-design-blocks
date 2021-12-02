@@ -1,8 +1,8 @@
 import React from 'react';
 
 function Contacts08(props) {
-  return (<section className="fdb-block pt-0" style={{backgroundImage: 'url(./imgs/shapes/8.svg)'}}>
-  <div className="bg-gray">
+  return (<section className={`fdb-block pt-0 ${props.dark ? "bg-dark" : null}`} style={{backgroundImage: `url(./imgs/shapes/8${props.dark ? "dark" : ""}.svg)`}}>
+  <div className={`${!props.dark ? "bg-gray" : null}`}>
     <div className="container">
       <div className="row-100"></div>
       <div className="row text-left">
