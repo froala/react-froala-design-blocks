@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Headers05(props) {
-  return (<header>
+  return (<header className={`${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <nav className="navbar navbar-expand-md no-gutters">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">

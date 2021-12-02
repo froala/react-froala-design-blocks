@@ -2,7 +2,7 @@ import React from 'react';
 import CopyRight from "../components/copyright.jsx";
 
 function Footers06(props) {
-  return (<footer className={`fdb-block footer-small  ${props.dark ? "bg-dark" : null}`}>
+  return (<footer className={`fdb-block footer-small ${props.dark ? "bg-dark" : null}`}>
   <div className="container">
     <div className="row text-center align-items-center">
       <div className="col">

@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Headers02(props) {
-  return (<header>
+  return (<header className={`${props.dark ? "bg-dark" : null}`}>
   <div className="container text-center">
     <nav className="navbar">
       <a className="ml-auto mr-auto" href="https://www.froala.com">
